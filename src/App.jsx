@@ -34,7 +34,7 @@ const translations = {
     yourAnswer: 'שלך:',
     answer: 'תשובה:',
     video: 'וידאו:',
-    footer: 'נבנה לסקירה מהירה • כל חותמות הזמן המחשה',
+    footer: 'RB',
     sampleQuiz: 'חידון לדוגמה',
     sampleDescription: 'שאלות דמו בסיסיות עם הנרי וארכיטקטורה',
     bigDataQuiz: 'חידון ביג דאטה',
@@ -74,7 +74,7 @@ const translations = {
     yourAnswer: 'Your:',
     answer: 'Ans:',
     video: 'Video:',
-    footer: 'Built for rapid review • All timestamps illustrative',
+    footer: 'RB',
     sampleQuiz: 'Sample Quiz',
     sampleDescription: 'Basic demo questions with Henry and architecture',
     bigDataQuiz: 'Big Data Quiz',
@@ -115,22 +115,37 @@ function shuffleQuestionsAndOptions(questions) {
 
 function useQuizData(url) {
   const [data, setData] = useState(/** @type {QuizQuestion[]|null} */(null))
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false) // Start with false, only set true when actually fetching
   const [error, setError] = useState('')
   useEffect(() => {
+    if (!url) {
+      setLoading(false)
+      setData(null)
+      setError('')
+      return
+    }
     let active = true
     setLoading(true)
+    console.log('Fetching quiz data from:', url) // Debug log
     fetch(url)
-      .then(r => { if(!r.ok) throw new Error('Failed to load quiz data'); return r.json() })
+      .then(r => { 
+        console.log('Fetch response:', r.status, r.statusText) // Debug log
+        if(!r.ok) throw new Error(`Failed to load quiz data (${r.status}): ${r.statusText}`)
+        return r.json() 
+      })
       .then(json => { 
         if(active) { 
+          console.log('Quiz data loaded:', json.length, 'questions') // Debug log
           // Shuffle questions and options when data loads
           const shuffledData = shuffleQuestionsAndOptions(json)
           setData(shuffledData); 
           setError('') 
         } 
       })
-      .catch(e => { if(active) setError(e.message || 'Error'); })
+      .catch(e => { 
+        console.error('Quiz fetch error:', e) // Debug log
+        if(active) setError(e.message || 'Error')
+      })
       .finally(() => active && setLoading(false))
     return () => { active = false }
   }, [url])
@@ -142,7 +157,14 @@ const LETTERS = ['A','B','C','D','E','F','G','H']
 function App() {
   const [language, setLanguage] = useState('he') // Default to Hebrew
   const [selectedQuiz, setSelectedQuiz] = useState(null)
-  const { data: questions, loading, error } = useQuizData(selectedQuiz ? `/${selectedQuiz}` : null)
+  
+  // Fix URL path for both localhost and production
+  const getQuizUrl = (filename) => {
+    // Use import.meta.env.BASE_URL which respects the vite.config base setting
+    return `${import.meta.env.BASE_URL}${filename}`
+  }
+  
+  const { data: questions, loading, error } = useQuizData(selectedQuiz ? getQuizUrl(selectedQuiz) : null)
   const [index, setIndex] = useState(0)
   const [answers, setAnswers] = useState([]) // {questionId, chosenId, correct:boolean}
   const [selected, setSelected] = useState(null)
@@ -254,7 +276,7 @@ function App() {
       </header>
 
       {loading && <div className="card"><p>{isRTL ? 'טוען חידון...' : 'Loading quiz…'}</p></div>}
-      {false && <div className="card"><p style={{color:'var(--danger)'}}>{isRTL ? 'שגיאה:' : 'Error:'} {error}</p></div>}
+      {error && <div className="card"><p style={{color:'var(--danger)'}}>{isRTL ? 'שגיאה:' : 'Error:'} {error}</p></div>}
 
       {!selectedQuiz && !loading && (
         <div className="card fade-in">
