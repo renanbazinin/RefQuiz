@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1,
+    "question": "מהי ההגדרה הרשמית ל'ביג דאטה' כפי שהוצגה בקורס?",
+    "options": [
+      { "id": "a1", "text": "איסוף ועיבוד נתונים גדולים ומורכבים מעבר ליכולת RDBMS מסורתי" },
+      { "id": "a2", "text": "שמירת תמונות בלבד בענן ציבורי מאובטח וזול" },
+      { "id": "a3", "text": "הרצת סקריפטים קצרים על גיליונות נתונים מקומיים" },
+      { "id": "a4", "text": "שימוש בבינה מלאכותית ליצירת טקסטים ותמונות" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 1 - מבוא לביג דאטה 1",
+      "time": "01:56:55",
+      "quote": "הגדרה רשמית מתייחסת לאיסוף נתונים גדולים ומורכבים מכדי לטפל בהם בכלים מסורתיים."
+    }
+  },
+  {
+    "id": 2,
+    "question": "אילו הם שלושת ה-V המרכזיים של ביג דאטה?",
+    "options": [
+      { "id": "a1", "text": "נפח, מהירות, מגוון" },
+      { "id": "a2", "text": "נפח, איכות, גודל" },
+      { "id": "a3", "text": "ורסטיליות, ויזואליות, וקטורים" },
+      { "id": "a4", "text": "ווליום, ולידציה, ווקליות" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 1 - מבוא לביג דאטה 1",
+      "time": "00:55:16",
+      "quote": "שלושת ה-V's: Volume, Velocity, Variety."
+    }
+  },
+  {
+    "id": 3,
+    "question": "מה ההבדל בין 'דאטה' ל'אינפורמציה' בדוגמת התפוחים?",
+    "options": [
+      { "id": "a1", "text": "דאטה הם נתונים גולמיים; אינפורמציה היא המשמעות הנגזרת מהם" },
+      { "id": "a2", "text": "דאטה הוא תמיד מדויק; אינפורמציה תמיד מקורבת" },
+      { "id": "a3", "text": "דאטה מיוצר ידנית; אינפורמציה נוצרת אוטומטית" },
+      { "id": "a4", "text": "אין הבדל בפועל בין השניים בתעשייה" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 1 - מבוא לביג דאטה 1",
+      "time": "00:25:12",
+      "quote": "דאטה: המספר עצמו; אינפורמציה: המשמעות שלו."
+    }
+  },
+  {
+    "id": 4,
+    "question": "איזו משימה קשה לפצל במקביל בדוגמת התפוחים ולכן מאתגרת בביג דאטה?",
+    "options": [
+      { "id": "a1", "text": "מציאת החציוני מכל הארגזים יחד" },
+      { "id": "a2", "text": "מציאת התפוח הכבד ביותר" },
+      { "id": "a3", "text": "חישוב סכום המשקלים הכולל" },
+      { "id": "a4", "text": "חישוב ממוצע משוקלל לפירות" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 1 - מבוא לביג דאטה 1",
+      "time": "00:43:29",
+      "quote": "החציון דורש מיון כולל, וקשה לפיצול יעיל."
+    }
+  },
+  {
+    "id": 5,
+    "question": "מהי אידמפוטנטיות (Idempotency) בהקשר של מערכות ביג דאטה?",
+    "options": [
+      { "id": "a1", "text": "ביצוע אותה פעולה שוב יניב אותה תוצאה על אותם נתונים" },
+      { "id": "a2", "text": "ביצוע חוזר תמיד יכפיל את מהירות העיבוד" },
+      { "id": "a3", "text": "כל פעולה מתבצעת בדיוק פעם אחת בלבד" },
+      { "id": "a4", "text": "תוצאות זהות מובטחות רק על מכונה יחידה" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 1 - מבוא לביג דאטה 1",
+      "time": "02:06:24",
+      "quote": "Idempotency מבטיחה עקביות בביצוע פעולות חוזרות."
+    }
+  },
+  {
+    "id": 6,
+    "question": "מהו עקרון 'קרבת הנתונים' (Data Locality)?",
+    "options": [
+      { "id": "a1", "text": "להריץ את החישוב במקום שבו הנתונים מאוחסנים" },
+      { "id": "a2", "text": "להעתיק נתונים תחילה ללקוח ואז לעבד" },
+      { "id": "a3", "text": "לרכז נתונים תמיד בבסיס נתונים יחיד" },
+      { "id": "a4", "text": "להעדיף רשת מהירה על פני דיסקים מקומיים" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 1 - מבוא לביג דאטה 1",
+      "time": "02:02:20",
+      "quote": "מעבדים קרוב לדיסק ול-CPU כדי להימנע מהעברות יקרות."
+    }
+  },
+  {
+    "id": 7,
+    "question": "במסגרת SLA, למה מתייחס המושג Freshness?",
+    "options": [
+      { "id": "a1", "text": "עד כמה הנתונים מעודכנים בזמן אמת" },
+      { "id": "a2", "text": "כמות המשתמשים הנוכחיים במערכת" },
+      { "id": "a3", "text": "מהירות הכתיבה לדיסק הקשיח" },
+      { "id": "a4", "text": "מספר האזורים הגיאוגרפיים הפעילים" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 2 - big data 02",
+      "time": "00:22:12",
+      "quote": "Freshness: רעננות ועדכניות הדאטה."
+    }
+  },
+  {
+    "id": 8,
+    "question": "איזו גישה מספקת גדילה כמעט בלתי מוגבלת במערכות ביג דאטה?",
+    "options": [
+      { "id": "a1", "text": "Scale Out: הוספת מכונות רבות לקלאסטר" },
+      { "id": "a2", "text": "Scale Up: החלפת שרת יחיד לגדול יותר" },
+      { "id": "a3", "text": "Cache פנימי על גבי הלקוח המקומי" },
+      { "id": "a4", "text": "שדרוג כרטיס רשת ל-100GbE" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 2 - big data 02",
+      "time": "00:51:58",
+      "quote": "Scale Out נדרש במיוחד לעומסי ביג דאטה."
+    }
+  },
+  {
+    "id": 9,
+    "question": "איזה סוג קלאסטר מיועד להרצת עבודות חישוב מבוזרות כמו חיפוש באינסטגרם?",
+    "options": [
+      { "id": "a1", "text": "Compute Cluster לעיבוד מבוזר" },
+      { "id": "a2", "text": "Load Balancer לקדמת ווב" },
+      { "id": "a3", "text": "קלאסטר מיקרו-שירותים בלבד" },
+      { "id": "a4", "text": "שרת יחיד עם אחסון מקומי" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 2 - big data 02",
+      "time": "00:39:10",
+      "quote": "קלאסטרים לחישוב מבוזר מתאימים לביג דאטה."
+    }
+  },
+  {
+    "id": 10,
+    "question": "איזה מודל תמחור נפוץ בשירותי ענן/‏SaaS?",
+    "options": [
+      { "id": "a1", "text": "לפי שימוש (Usage-Based) לפי משאבים" },
+      { "id": "a2", "text": "תשלום חד־פעמי לכל החיים" },
+      { "id": "a3", "text": "מנוי ללא הגבלת משאבים חינם" },
+      { "id": "a4", "text": "שימוש חופשי ללא חיוב לעד" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 2 - big data 02",
+      "time": "01:03:35",
+      "quote": "מודלים: Per User, Tiered, Usage-Based בענן."
+    }
+  },
+  {
+    "id": 11,
+    "question": "מהו סיכון מרכזי שנדון בדוגמת 'פרלר' בהקשר פריסת ענן?",
+    "options": [
+      { "id": "a1", "text": "תלות בספק ענן שעלול להשבית שירות" },
+      { "id": "a2", "text": "אי אפשרות לגיבוי נתונים בכלל" },
+      { "id": "a3", "text": "ענן תמיד איטי משרת מקומי" },
+      { "id": "a4", "text": "אין אבטחה בענן ברירת מחדל" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 2 - big data 02",
+      "time": "01:22:06",
+      "quote": "פרלר הושבתה עקב החלטת ספק ענן."
+    }
+  },
+  {
+    "id": 12,
+    "question": "מי הם שלושת רכיבי הליבה של Hadoop?",
+    "options": [
+      { "id": "a1", "text": "HDFS, MapReduce, YARN" },
+      { "id": "a2", "text": "S3, Lambda, DynamoDB" },
+      { "id": "a3", "text": "Kubernetes, Istio, Knative" },
+      { "id": "a4", "text": "Kafka, Zookeeper, Flink" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 3 - big data 03",
+      "time": "00:39:22",
+      "quote": "שלושת רכיבי הליבה: HDFS, MapReduce, YARN."
+    }
+  },
+  {
+    "id": 13,
+    "question": "איזה מאפיין נכון לגבי קבצים ב-HDFS?",
+    "options": [
+      { "id": "a1", "text": "קבצים בלתי־ניתנים לשינוי ומשוכפלים לשרידות" },
+      { "id": "a2", "text": "קבצים משתנים חופשי בזמן אמת ללא שכפול" },
+      { "id": "a3", "text": "אין תמיכה בקבצים גדולים מעל GB בודד" },
+      { "id": "a4", "text": "כל קובץ חייב להיות על מכונה יחידה" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 3 - big data 03",
+      "time": "00:41:38",
+      "quote": "HDFS: קבצים גדולים, immutable, שכפול בלוקים."
+    }
+  },
+  {
+    "id": 14,
+    "question": "ב-Word Count של MapReduce, מה פולט ה-Mapper?",
+    "options": [
+      { "id": "a1", "text": "זוגות (מילה, 1) לכל הופעה" },
+      { "id": "a2", "text": "שורות טקסט מאוחדות ללא שינוי" },
+      { "id": "a3", "text": "סכום כולל של המילים בקובץ" },
+      { "id": "a4", "text": "טבלאות ביניים בפורמט JSON" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 3 - big data 03",
+      "time": "01:49:16",
+      "quote": "Mapper מפיק (מילה, 1); Reducer מסכם."
+    }
+  },
+  {
+    "id": 15,
+    "question": "מה מייצרים קבצי הפלט של Hadoop Streaming לאחר ריצה מוצלחת?",
+    "options": [
+      { "id": "a1", "text": "מספר קבצים part-r-00000 ו-_SUCCESS" },
+      { "id": "a2", "text": "קובץ יחיד result.txt בתיקיית בית" },
+      { "id": "a3", "text": "מסד נתונים SQLite עם טבלה אחת" },
+      { "id": "a4", "text": "קובץ HTML עם תרשימי סיכום" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 3 - big data 03",
+      "time": "01:51:34",
+      "quote": "קבצי part-r-... וגם קובץ _SUCCESS."
+    }
+  },
+  {
+    "id": 16,
+    "question": "למה משמש ממשק המשתמש של YARN ב-EMR?",
+    "options": [
+      { "id": "a1", "text": "ניטור עבודות, שלבים, לוגים ותקלות בקלאסטר" },
+      { "id": "a2", "text": "עריכת קוד פייתון של ה-Mapper וה-Reducer" },
+      { "id": "a3", "text": "ניהול חשבונות משתמשים והרשאות IAM" },
+      { "id": "a4", "text": "הגדרת מחירי Spot למכונות EC2" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 3 - big data 03",
+      "time": "01:57:38",
+      "quote": "YARN מציג פרטי יישומים ולוגים לדיבוג."
+    }
+  },
+  {
+    "id": 17,
+    "question": "ב-EMR, מה תפקיד צמתי Task?",
+    "options": [
+      { "id": "a1", "text": "עובדים זמניים להוספת כח חישוב ללא אחסון HDFS" },
+      { "id": "a2", "text": "ניהול מטא־דטה ורישום מפות בלוקים" },
+      { "id": "a3", "text": "שמירת נתונים בלבד ללא הרצת משימות" },
+      { "id": "a4", "text": "איזון עומסים עבור שרתי ווב חיצוניים" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 4 - big data 04",
+      "time": "00:19:15",
+      "quote": "Primary, Core ו-Task; Task להרחבת חישוב."
+    }
+  },
+  {
+    "id": 18,
+    "question": "פתיחת פורט 22 ב-Security Group אינה מספיקה. מה עוד חובה כדי להתחבר ב-SSH?",
+    "options": [
+      { "id": "a1", "text": "מפתח ה־SSH (Key Pair) תואם ששיויך לאשכול" },
+      { "id": "a2", "text": "כתובת DNS ציבורית מותאמת אישית" },
+      { "id": "a3", "text": "התקנת IDE גרפי על ה-Primary" },
+      { "id": "a4", "text": "משתמש ROOT עם סיסמה ידנית קבועה" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 4 - big data 04",
+      "time": "00:42:39",
+      "quote": "נדרש Key Pair בנוסף לכללי ה-SG."
+    }
+  },
+  {
+    "id": 19,
+    "question": "מדוע מומלץ 'Manual Terminate' לאשכול EMR בסיום עבודה?",
+    "options": [
+      { "id": "a1", "text": "כדי למנוע חיובים מיותרים ושחיקת קרדיט" },
+      { "id": "a2", "text": "כדי למחוק אוטומטית את כל קבצי הלוג" },
+      { "id": "a3", "text": "כדי לאפס את גרסת מערכת ההפעלה" },
+      { "id": "a4", "text": "כדי לשדרג מיידית את כל החבילות" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 4 - big data 04",
+      "time": "00:28:13",
+      "quote": "לסגור ידנית כדי לא להמשיך לשלם על האשכול."
+    }
+  },
+  {
+    "id": 20,
+    "question": "איזה מודל תמחור ב-EC2 זול אך עשוי להיקטע בכל רגע?",
+    "options": [
+      { "id": "a1", "text": "Spot Instances לעומסים סלחניים" },
+      { "id": "a2", "text": "On-Demand במחיר קבוע לשעה" },
+      { "id": "a3", "text": "Reserved Instances לשלוש שנים" },
+      { "id": "a4", "text": "Dedicated Host עם התחייבות שנתית" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 5 - big data 05",
+      "time": "01:36:38",
+      "quote": "Spot זול אך נתון לביטול על ידי AWS."
+    }
+  },
+  {
+    "id": 21,
+    "question": "איזו תכונה מאפיינת את Amazon S3?",
+    "options": [
+      { "id": "a1", "text": "Object Storage עם עמידות גבוהה ושינוי שם כ'העתק+מחק'" },
+      { "id": "a2", "text": "File System היררכי עם נעילות קבצים" },
+      { "id": "a3", "text": "בלוקים משתנים והקצאה עצמית" },
+      { "id": "a4", "text": "כתיבה אטומית מרובת גרסאות לקובץ יחיד" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 5 - big data 05",
+      "time": "01:50:13",
+      "quote": "S3: Object Store; פעולת rename אינה אטומית."
+    }
+  },
+  {
+    "id": 22,
+    "question": "מה מאפשר Amazon RDS בהקשר לזמינות?",
+    "options": [
+      { "id": "a1", "text": "פריסה Multi-AZ לשיפור זמינות ושחזורים" },
+      { "id": "a2", "text": "Scale Out אוטומטי לאינסוף עותקים" },
+      { "id": "a3", "text": "עדכוני סכמה בזמן אמת ללא נעילות" },
+      { "id": "a4", "text": "הפיכת כל טבלה ל-Object ב-S3" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 5 - big data 05",
+      "time": "02:05:39",
+      "quote": "RDS תומך Multi-AZ עבור זמינות גבוהה."
+    }
+  },
+  {
+    "id": 23,
+    "question": "במודל האחריות המשותפת, על מה אחראי הלקוח?",
+    "options": [
+      { "id": "a1", "text": "האבטחה בתוך הענן: נתונים, הרשאות, קונפיגורציות" },
+      { "id": "a2", "text": "האבטחה של הענן: מרכזי נתונים תשתיתיים" },
+      { "id": "a3", "text": "החשמל והקירור של השרתים הפיזיים" },
+      { "id": "a4", "text": "ניהול סיבים אופטיים בין האזורים" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 5 - big data 05",
+      "time": "00:57:41",
+      "quote": "AWS: 'Security OF the Cloud'; לקוח: 'IN the Cloud'."
+    }
+  },
+  {
+    "id": 24,
+    "question": "בספארק, מה ההבדל בין טרנספורמציה ל-Action?",
+    "options": [
+      { "id": "a1", "text": "טרנספורמציות עצלות; Action מפעיל חישוב ומחזיר תוצאה" },
+      { "id": "a2", "text": "טרנספורמציות כותבות לדיסק; Action רק משנה שמות" },
+      { "id": "a3", "text": "Action מריצה קוד; טרנספורמציה רק מציגה UI" },
+      { "id": "a4", "text": "אין הבדל, אלו מונחים זהים" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 6 - big data 07 28 04 2025",
+      "time": "00:00:59",
+      "quote": "טרנספורמציות הן Lazy; Actions מפעילות את ה-DAG."
+    }
+  },
+  {
+    "id": 25,
+    "question": "איזה משפט נכון לגבי flatMap לעומת map ב-Spark?",
+    "options": [
+      { "id": "a1", "text": "flatMap יכול להפיק 0, 1 או יותר שורות לכל קלט" },
+      { "id": "a2", "text": "map תמיד מוחק שורות ריקות מיידית" },
+      { "id": "a3", "text": "flatMap מחייב מבנים מקוננים בלבד" },
+      { "id": "a4", "text": "map תמיד מפיק שתי שורות לכל קלט" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 6 - big data 07 28 04 2025",
+      "time": "00:10:49",
+      "quote": "flatMap 'משטח' אוספים לשורות נפרדות."
+    }
+  },
+  {
+    "id": 26,
+    "question": "אילו פעולות ב-Spark גורמות בהכרח ל-Shuffle?",
+    "options": [
+      { "id": "a1", "text": "reduceByKey ו-join גורמות להזזת נתונים" },
+      { "id": "a2", "text": "map ו-filter תמיד יוצרות Shuffle" },
+      { "id": "a3", "text": "cache ו-persist מפעילות Shuffle" },
+      { "id": "a4", "text": "count ו-take מונעות Shuffle" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 6 - big data 07 28 04 2025",
+      "time": "00:43:12",
+      "quote": "groupByKey/reduceByKey/join גורמות לשלב Shuffle."
+    }
+  },
+  {
+    "id": 27,
+    "question": "מתי מומלץ להשתמש ב-cache() בספארק?",
+    "options": [
+      { "id": "a1", "text": "כאשר אותו RDD/DF נצרך שוב במספר שלבים" },
+      { "id": "a2", "text": "כאשר אין מספיק זיכרון למודל" },
+      { "id": "a3", "text": "כאשר רוצים למחוק נתונים ישנים מהדיסק" },
+      { "id": "a4", "text": "כאשר מריצים פעולת saveAsTable" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 6 - big data 07 28 04 2025",
+      "time": "00:58:39",
+      "quote": "cache חוסך חישוב חוזר וקריאות מיותרות."
+    }
+  },
+  {
+    "id": 28,
+    "question": "מה יקרה בעת saveAsTextFile על RDD עם 3 פרטישנים?",
+    "options": [
+      { "id": "a1", "text": "יינתנו שלושה קבצי part-00000..02 בתיקיית הפלט" },
+      { "id": "a2", "text": "יווצר קובץ יחיד בשם output.txt" },
+      { "id": "a3", "text": "הפלט ייכתב למסד נתונים רלציוני" },
+      { "id": "a4", "text": "הקבצים ימוזגו אוטומטית ללא סיום ג'וב" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 6 - big data 07 28 04 2025",
+      "time": "01:14:46",
+      "quote": "שומר לפי מספר הפרטישנים הקיימים."
+    }
+  },
+  {
+    "id": 29,
+    "question": "איזו משפחת NoSQL מתארת מסמכים עם סכמה גמישה (JSON/BSON)?",
+    "options": [
+      { "id": "a1", "text": "Document Store כמו MongoDB ו-Couchbase" },
+      { "id": "a2", "text": "Key-Value לקאש זיכרון מהיר" },
+      { "id": "a3", "text": "Wide Column עם Partition Key קשיח" },
+      { "id": "a4", "text": "Graph DB עם קודקודים וקשתות" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 7 - big data 08 05 05 2025",
+      "time": "00:42:21",
+      "quote": "Document Store: מסמכים היררכיים, סכמה גמישה."
+    }
+  },
+  {
+    "id": 30,
+    "question": "כפי שמסביר CAP Theorem, מה לא ניתן להשיג יחד בכל מערכת מבוזרת?",
+    "options": [
+      { "id": "a1", "text": "עקביות, זמינות, וסבילות לחלוקת רשת – שלושתם יחד" },
+      { "id": "a2", "text": "סקיילביליות, אבטחה, וביצועים – שלושתם יחד" },
+      { "id": "a3", "text": "תעבורה, קירור, וחשמל – שלושתם יחד" },
+      { "id": "a4", "text": "UI, UX, ו-API – שלושתם יחד" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 7 - big data 08 05 05 2025",
+      "time": "01:22:21",
+      "quote": "בוחרים שניים מתוך C, A, P."
+    }
+  },
+  {
+    "id": 31,
+    "question": "מה פירוש Eventually Consistent במסדי נתונים מבוזרים?",
+    "options": [
+      { "id": "a1", "text": "בסופו של דבר כל העותקים יתיישרו, לא בהכרח מיידית" },
+      { "id": "a2", "text": "הנתונים תמיד עקביים מיידית בכל נוד" },
+      { "id": "a3", "text": "אין אחריות כלל על עקביות הנתונים" },
+      { "id": "a4", "text": "עקביות מובטחת רק בשעות הלילה" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 7 - big data 08 05 05 2025",
+      "time": "01:31:30",
+      "quote": "פשרה נפוצה לטובת זמינות ו-P."
+    }
+  },
+  {
+    "id": 32,
+    "question": "מה ההבדל המרכזי בין Data Lake ל-Data Warehouse?",
+    "options": [
+      { "id": "a1", "text": "Lake שומר נתונים גולמיים; Warehouse נתונים מעובדים ומובנים" },
+      { "id": "a2", "text": "Lake תמיד רלציוני; Warehouse תמיד NoSQL" },
+      { "id": "a3", "text": "Lake איטי יותר בכתיבה; Warehouse איטי בקריאה" },
+      { "id": "a4", "text": "Lake מחייב טבלאות קבועות; Warehouse ללא סכמה" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 7 - big data 08 05 05 2025",
+      "time": "02:04:20",
+      "quote": "Lake: נתונים גולמיים בקבצים; Warehouse: מובנים לאנליסטים."
+    }
+  },
+  {
+    "id": 33,
+    "question": "בספארק SQL, מה מחליף את SparkContext כנקודת כניסה?",
+    "options": [
+      { "id": "a1", "text": "SparkSession כשכבה מעל Spark Core" },
+      { "id": "a2", "text": "RDDManager שמטפל בטרנספורמציות" },
+      { "id": "a3", "text": "SQLRouter שמנתב שאילתות" },
+      { "id": "a4", "text": "DataSource שמייצר Partitions" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 8 - big data 09 12 05 2025",
+      "time": "00:15:16",
+      "quote": "SparkSession הוא שער הכניסה לספארק SQL."
+    }
+  },
+  {
+    "id": 34,
+    "question": "מהו DataFrame בספארק SQL?",
+    "options": [
+      { "id": "a1", "text": "אובייקט מובנה דמוי טבלה מעל RDD עם סכמה" },
+      { "id": "a2", "text": "קובץ CSV שטוח ללא סכמה" },
+      { "id": "a3", "text": "מערך בייטים בינארי של קלט בלבד" },
+      { "id": "a4", "text": "API להצגת לוגים של Yarn בלבד" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 8 - big data 09 12 05 2025",
+      "time": "00:16:05",
+      "quote": "DataFrame עוטף RDD ומוסיף סכמה ושמות שדות."
+    }
+  },
+  {
+    "id": 35,
+    "question": "לשם מה יוצרים Temporary View עם createOrReplaceTempView?",
+    "options": [
+      { "id": "a1", "text": "כדי להריץ שאילתות SQL ישירות על ה-DataFrame" },
+      { "id": "a2", "text": "כדי לשמור את ה-DataFrame כטבלה ב-MySQL" },
+      { "id": "a3", "text": "כדי לייצר קובץ ORC מכל רשומה" },
+      { "id": "a4", "text": "כדי לשחזר Partition שנמחק ב-HDFS" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 8 - big data 09 12 05 2025",
+      "time": "00:51:06",
+      "quote": "מייצרים View זמני ואז מריצים spark.sql(...)."
+    }
+  },
+  {
+    "id": 36,
+    "question": "כיצד ספארק SQL מציג מבנים מקוננים (כמו Address) בקריאת JSON?",
+    "options": [
+      { "id": "a1", "text": "מאפשר שאילתות שטוחות; שומר היררכיה ב-printSchema" },
+      { "id": "a2", "text": "מתעלם משדות פנימיים ומוחק אותם" },
+      { "id": "a3", "text": "ממיר את כל השדות למחרוזת אחת" },
+      { "id": "a4", "text": "מדרוש מפתח זר לכל שדה מקונן" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 8 - big data 09 12 05 2025",
+      "time": "01:06:01",
+      "quote": "SELECT * מציג שדות; printSchema מראה StructType."
+    }
+  },
+  {
+    "id": 37,
+    "question": "מדוע פורמטים קולומנריים (למשל Parquet) עדיפים לאנליטיקה?",
+    "options": [
+      { "id": "a1", "text": "קריאת עמודות בודדות יעילה ודחיסה גבוהה" },
+      { "id": "a2", "text": "ניתן לערוך שורה באמצע קובץ ללא העתקה" },
+      { "id": "a3", "text": "הם תמיד קטנים מקבצי תמונה" },
+      { "id": "a4", "text": "מאפשרים SQL רק ללא אינדקסים" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 9 - big data 10 20 05 2025",
+      "time": "00:42:45",
+      "quote": "ORC/Parquet קולומנריים: יעילות קריאה ודחיסה."
+    }
+  },
+  {
+    "id": 38,
+    "question": "איזה פורמט בינארי תומך באבולוציית סכמה ע\"י שמירת הסכמה בכותרת?",
+    "options": [
+      { "id": "a1", "text": "Avro תומך בשינויים מבוקרים לאורך זמן" },
+      { "id": "a2", "text": "CSV עם מפריד פסיקים סטנדרטי" },
+      { "id": "a3", "text": "JSON עם מפתחות חופשיים" },
+      { "id": "a4", "text": "XML מבוסס תגיות טקסטואליות" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 9 - big data 10 20 05 2025",
+      "time": "00:38:39",
+      "quote": "Avro: פורמט בינארי עם סכמה בכותרת."
+    }
+  },
+  {
+    "id": 39,
+    "question": "מה ההבדל העיקרי בין ETL לבין סטרימינג כפי שהוסבר בהרצאה?",
+    "options": [
+      { "id": "a1", "text": "ETL בעיבוד אצווה; סטרימינג בעיבוד שוטף בזמן" },
+      { "id": "a2", "text": "ETL עובד רק על JSON; סטרימינג רק על CSV" },
+      { "id": "a3", "text": "ETL תמיד זול יותר; סטרימינג תמיד יקר יותר" },
+      { "id": "a4", "text": "אין הבדל, אלו שמות זהים לתהליך אחד" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 9 - big data 10 20 05 2025",
+      "time": "00:13:11",
+      "quote": "ETL לאגם נתונים; סטרימינג מעבד תוך כדי זרימה."
+    }
+  },
+  {
+    "id": 40,
+    "question": "מה תפקיד ה-BI בהצגת נתונים בארגון לפי הקורס?",
+    "options": [
+      { "id": "a1", "text": "הכנת דוחות ויזואליים תמציתיים לקבלת החלטות" },
+      { "id": "a2", "text": "פיתוח אלגוריתמי ML חדשים מהיסוד" },
+      { "id": "a3", "text": "תחזוקת רשת וירטואלית ו-Firewalls" },
+      { "id": "a4", "text": "אינדוקס קבצים ב-S3 לצורך חיפוש" }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": "VIDEO 9 - big data 10 20 05 2025",
+      "time": "00:58:50",
+      "quote": "BI מתמקד בדוחות ויזואליים לשורה התחתונה."
+    }
+  }
+]
