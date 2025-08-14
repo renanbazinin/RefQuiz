@@ -289,10 +289,10 @@ function App() {
   const correctCount = answers.filter(a=>a.correct).length
 
   const quizOptions = [
+    { id: 'bigdata_exam_questions_80.json', name: t.bigDataExamQuiz, description: t.bigDataExamDescription },
     { id: 'test.json', name: t.sampleQuiz, description: t.sampleDescription },
     { id: 'bigData.json', name: t.bigDataQuiz, description: t.bigDataDescription },
-    { id: 'NNNLP.json', name: t.nlpQuiz, description: t.nlpDescription },
-    { id: 'bigdata_exam_questions_80.json', name: t.bigDataExamQuiz, description: t.bigDataExamDescription }
+    { id: 'NNNLP.json', name: t.nlpQuiz, description: t.nlpDescription }
   ]
 
   return (
