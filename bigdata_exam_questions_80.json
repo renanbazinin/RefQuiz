@@ -1,0 +1,2806 @@
+[
+  {
+    "id": 1,
+    "question": "מדוע חישוב נתוני \"Big Data\" יותר מורכב מחישוב על דאטה בהיקף קטן?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כל מה שניתן לעשות בדאטה בהיקף קטן ניתן לעשות על Big Data אך לעיתים יש צורך להוסיף חישובים מורכבים יותר."
+      },
+      {
+        "id": "a2",
+        "text": "חישוב על Big Data תמיד יהיה יקר יותר מאשר על דאטה בהיקף קטן."
+      },
+      {
+        "id": "a3",
+        "text": "חישוב על Big Data אינו מדויק ומצריך קירובים (approximations)."
+      },
+      {
+        "id": "a4",
+        "text": "כל מה שניתן לעשות בדאטה בהיקף קטן ניתן לעשות על Big Data."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 2,
+    "question": "כשמחשבים את תוחלת הגיל הממוצע במדגם בין מיליון נתונים, לעומת חיפוש התפוז הממוצע בין מאה תפוחים, ורוצים לשמור על אותו משך זמן לביצוע החישוב, אנחנו צריכים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "פי 10,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a2",
+        "text": "פי 1,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a3",
+        "text": "פי 5,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a4",
+        "text": "פי 100,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 3,
+    "question": "כשמחשבים את החציון (median) בין מיליון נתונים, לעומת חיפוש התפוז הממוצע בין מאה תפוחים, ורוצים לשמור על אותו משך זמן לביצוע החישוב, אנחנו צריכים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "במקרה של חציון נדרש קודם חישוב שיורד את הזיקוק כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a2",
+        "text": "פי 1,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a3",
+        "text": "פי 10,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a4",
+        "text": "פי 100,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 4,
+    "question": "אפשר להשיג מהירות ביצוע גבוהה בחישובים על Big Data על ידי שימוש בכמה מהדרכים הבאות:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "חישוב מבוזר (distributed processing), שימוש במחשבים עם הרבה CPU's."
+      },
+      {
+        "id": "a2",
+        "text": "חישוב מבוזר (distributed processing), כתיבת קוד בשפת פייתון."
+      },
+      {
+        "id": "a3",
+        "text": "חישוב מפוזר (distributed processing), כתיבת קוד בשפת C."
+      },
+      {
+        "id": "a4",
+        "text": "חישוב מבוזר (distributed processing), שימוש ב CPU של אינטל בלבד."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 5,
+    "question": "לגבי מערכות Big Data, ה Service Level Agreement - SLA יכול לכלול את הפרמטרים הבאים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "אמינות (Reliability) של הדאטה, זמינות (Availability) של השירות, וזמן תגובה של השאילתות (queries)."
+      },
+      {
+        "id": "a2",
+        "text": "קיום אפליקציה אנדרואיד, קונסיסטנטיות (Consistency) של דאטה, זמינות (Availability) של מחשבים."
+      },
+      {
+        "id": "a3",
+        "text": "קיום אפליקציית iOS, קונסיסטנטיות (Consistency) של דאטה, זמינות (Availability) של השירות."
+      },
+      {
+        "id": "a4",
+        "text": "אמינות (Reliability) של המחשבים, זמינות (Availability) של השירות, וזמן תגובה של הדאטה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 6,
+    "question": "אילו משאבים ניתן להוסיף במצב scale-up (הגדלת משאבים במכונה) ?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "זיכרון, דיסק, הוספת CPU's, רוחב פס רשת."
+      },
+      {
+        "id": "a2",
+        "text": "זיכרון, שדרוג דיסק ל SSD, הוספת CPU's."
+      },
+      {
+        "id": "a3",
+        "text": "רק הוספת זיכרון."
+      },
+      {
+        "id": "a4",
+        "text": "רק הוספת CPU's."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 7,
+    "question": "אילו אפשרויות נותנים ספקי שירותי ענן (למשל AWS, GCS, Azure) לגבי הרצת תוכנה על השרתים שלהם? בחרו את התשובה הנכונה ביותר!",
+    "options": [
+      {
+        "id": "a1",
+        "text": "התקנת תוכנה על מחשבים וירטואליים של ספק שירותי הענן, משלמים לספק רק על המחשבים הוירטואליים."
+      },
+      {
+        "id": "a2",
+        "text": "התקנת תוכנה על מחשבים וירטואליים של ספק שירותי הענן, משלמים לספק גם על המחשבים הוירטואליים, וגם על כל קבלה שאנו מקבלים על המחשבים."
+      },
+      {
+        "id": "a3",
+        "text": "משלמים לספקי התמורה בלבד, כאשר אנחנו מתקינים בעצמנו מכונות וירטואליות."
+      },
+      {
+        "id": "a4",
+        "text": "ספקי שירותי ענן עוברים לאטנה שיש לו ערך רב."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 8,
+    "question": "מה זה Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "תוכנת קוד פתוח, לאחסון דאטה בכמויות גדולות והרצת תוכנה על אותו הדאטה."
+      },
+      {
+        "id": "a2",
+        "text": "דאטאבייס NoSQL המיועד לאחסון הרבה דאטה."
+      },
+      {
+        "id": "a3",
+        "text": "דאטאבייס רלציוני המיועד לאחסון הרבה דאטה."
+      },
+      {
+        "id": "a4",
+        "text": "תוכנה שאינה קוד פתוח ויש לשלם עליה, לאחסון דאטה בכמויות גדולות והרצת תוכנה על אותו הדאטה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 9,
+    "question": "המרכיבים של Hadoop הם:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "HDFS, MapReduce, YARN."
+      },
+      {
+        "id": "a2",
+        "text": "HDFS, MapReduce, Spark."
+      },
+      {
+        "id": "a3",
+        "text": "iOS, MapReduce, YARN."
+      },
+      {
+        "id": "a4",
+        "text": "HDFS, MapReduce."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 10,
+    "question": "איך ניתן להעלות קבצים מדיסק מקומי לקבצי HDFS?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "באמצעות פקודה: hadoop fs -copyFromLocal."
+      },
+      {
+        "id": "a2",
+        "text": "באמצעות פקודה: python copyToLocal."
+      },
+      {
+        "id": "a3",
+        "text": "באמצעות פקודה: python copyFromLocal."
+      },
+      {
+        "id": "a4",
+        "text": "באמצעות פקודה: hadoop fs -copyToLocal."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 11,
+    "question": "כמה reducers נוצרים בתוך ג'וב של MapReduce ב Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "לפי קונפיגורציה עם ערך default אשר ניתנת לשינוי."
+      },
+      {
+        "id": "a2",
+        "text": "כמספר המכונות שב cluster."
+      },
+      {
+        "id": "a3",
+        "text": "כמספר ה JVM's שרצים ב cluster."
+      },
+      {
+        "id": "a4",
+        "text": "באופן רנדומי לפי הערכה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 12,
+    "question": "באיזו שפה עלינו לכתוב את הקוד שמעביר דאטה מה mappers ל reducers ב Hadoop MapReduce?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "אין צורך לכתוב. הקוד הוא חלק מה MapReduce Framework."
+      },
+      {
+        "id": "a2",
+        "text": "פייתון בלבד."
+      },
+      {
+        "id": "a3",
+        "text": "רק דרך ה bash."
+      },
+      {
+        "id": "a4",
+        "text": "Java."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 13,
+    "question": "ב MapReduce Hadoop, מה הקשר בין מספר ה- mappers לבין מספר הקבצים שנכתבים ל output?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מספר קבצי ה output כתלות במספר ה reducers."
+      },
+      {
+        "id": "a2",
+        "text": "מספר קבצי ה output כתלות במספר ה mappers."
+      },
+      {
+        "id": "a3",
+        "text": "מספר קבצי ה output הוא המכפלה בין מספר ה mappers למספר ה reducers."
+      },
+      {
+        "id": "a4",
+        "text": "תמיד נכתב רק קובץ output אחד לכל ג'וב של MapReduce."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 14,
+    "question": "מה Apache Hive in?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מנוע שמשתמש ב MapReduce של Hadoop ומאפשר תחקור הדאטה בשפת SQL."
+      },
+      {
+        "id": "a2",
+        "text": "דאטאבייס NoSQL דומה ל Cassandra."
+      },
+      {
+        "id": "a3",
+        "text": "דאטאבייס רלציוני דומה ל MySQL."
+      },
+      {
+        "id": "a4",
+        "text": "מנוע עיבוד של Big data שמחליף את ה MapReduce של Hadoop."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 15,
+    "question": "דאטה במבנה קולונרי (Columnar data format) יכול לתת ביצועי קריאה טובים במקרה הבא:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בסריקה של טבלה עם הרבה עמודות כאשר רוצים להביא מספר קטן של עמודות."
+      },
+      {
+        "id": "a2",
+        "text": "בסריקה של טבלה עם הרבה עמודות כאשר רוצים להביא את כל העמודות."
+      },
+      {
+        "id": "a3",
+        "text": "בסריקה של טבלה עם מעט עמודות כאשר רוצים להביא מספר קטן של עמודות."
+      },
+      {
+        "id": "a4",
+        "text": "בסריקה של טבלה עם מעט עמודות כאשר רוצים להביא את כל העמודות."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 16,
+    "question": "מהו RDD בספארק? (Resilient Distributed Dataset)",
+    "options": [
+      {
+        "id": "a1",
+        "text": "ה API שעוטף נתנו דאטה ומשמש כרכיב מרכזי בתוכנית ספארק."
+      },
+      {
+        "id": "a2",
+        "text": "חלק במנוע של ספארק האחראי לשכפול נתונים ב cluster."
+      },
+      {
+        "id": "a3",
+        "text": "החלק בספארק שעובד עם קבצים גדולים בלבד ואינו מתאים לקבצים קטנים."
+      },
+      {
+        "id": "a4",
+        "text": "סוג הרישיון לקוד פתוח שקיים בספארק."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 17,
+    "question": "מה זה Spark Streaming?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "ספריה של ספארק המאפשרת עיבוד נתונים הזורמים בקצב גבוה, למשל מהאינטרנט."
+      },
+      {
+        "id": "a2",
+        "text": "ספריה של ספארק המאפשרת שאילתות בפורמט SQL."
+      },
+      {
+        "id": "a3",
+        "text": "זהו שם נרדף ל Apache Spark."
+      },
+      {
+        "id": "a4",
+        "text": "תוספת חדשה שהוסיפו ל Java 8."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 18,
+    "question": "מהו אחד היתרונות העיקריים של Apache Spark על פני Apache Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "Spark מהיר יותר מ Hadoop בדרך כלל."
+      },
+      {
+        "id": "a2",
+        "text": "Spark הוא קוד פתוח בעוד ש Hadoop מחייב תשלום."
+      },
+      {
+        "id": "a3",
+        "text": "אין יתרון, אפשר להשתמש בזה או בזה לפי העדפה אישית."
+      },
+      {
+        "id": "a4",
+        "text": "Spark מתאים לעיבוד על קבצים גדולים יותר בדרך כלל."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 19,
+    "question": "אילו פונקציות ב Apache Spark הן מאוחרות לביצוע Lazy processing?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "טרנספורמציות."
+      },
+      {
+        "id": "a2",
+        "text": "Actions."
+      },
+      {
+        "id": "a3",
+        "text": "כל הפונקציות בספארק הן lazy."
+      },
+      {
+        "id": "a4",
+        "text": "בספארק כל הפונקציות המוצעות מיידית ואינן lazy."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 20,
+    "question": "מה תבנית בקוד הזה של Apache Spark: sc.parallelize([1,2,3,4]).reduceByKey(func1)",
+    "options": [
+      {
+        "id": "a1",
+        "text": "הפונקציה reduceByKey מצפה ל RDD הבנוי מ key-value tuples."
+      },
+      {
+        "id": "a2",
+        "text": "הפונקציה parallelize אינה פונקציה בספארק."
+      },
+      {
+        "id": "a3",
+        "text": "הפונקציה reduceByKey היא action ולא transformation."
+      },
+      {
+        "id": "a4",
+        "text": "הפונקציה reduceByKey אינה מקבלת פרמטרים."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 21,
+    "question": "מה פירוש המושג Eventually Consistent?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בסביבה מבוזרת, לוקח זמן ועידכון להגיע לכל הרפליקות."
+      },
+      {
+        "id": "a2",
+        "text": "בסביבה מבוזרת, יש לפעמים הבדלים בין רפליקות שלא ניתן להתגבר עליהם."
+      },
+      {
+        "id": "a3",
+        "text": "בסביבה מבוזרת, יש רפליקציות על הדאטה."
+      },
+      {
+        "id": "a4",
+        "text": "בסביבה מבוזרת, בעיות ברשת יכולות לגרום לנזקים ב cluster."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 22,
+    "question": "מתי תתאים להשתמש ב Apache Kafka?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר רוצים להעביר נתונים מהאינטרנט בקצב גבוה לתוך Data Lake."
+      },
+      {
+        "id": "a2",
+        "text": "כשצריכים סטרימינג מאוד מהיר."
+      },
+      {
+        "id": "a3",
+        "text": "כשצריכים לעבוד עם Apache Spark לצורך קריאת קבצים גדולים במיוחד."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר יש לנו אפליקציה גדולה מאוד עם GUI וצריך זמני תגובה מהירים לאפליקציה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 23,
+    "question": "מתי נשתמש ב Time Windowing ב data streaming?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר רוצים לבצע פעולת חישוב על נתונים הנפרשים על פני חלון זמן."
+      },
+      {
+        "id": "a2",
+        "text": "כאשר מריצים תוכנת Java על מערכת הפעלה Windows."
+      },
+      {
+        "id": "a3",
+        "text": "כאשר רוצים לבצע פעולה חישובית על נתונים על הדיסק."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר עובדים על נתונים המגיעים ל Amazon Web Services."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 24,
+    "question": "מה זה NoSQL?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "שם כולל לדאטאבייסים שאינם רלציונים."
+      },
+      {
+        "id": "a2",
+        "text": "שם כולל לדאטאבייסים שלא תומכים בשפת SQL."
+      },
+      {
+        "id": "a3",
+        "text": "שם כולל לכל הדאטאבייסים הרלציונים והלא רלציונים."
+      },
+      {
+        "id": "a4",
+        "text": "דאטאבייס מסוג document store בלבד."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 25,
+    "question": "מה מנסים להבטיח NewSQL databases?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "דאטאבייסים שהם גם transactional וגם יכולים לגדול (scalable)."
+      },
+      {
+        "id": "a2",
+        "text": "דאטאבייסים דומים ל wide-columnar databases אבל חזקים הרבה יותר."
+      },
+      {
+        "id": "a3",
+        "text": "דאטאבייסים רלציוניים שהם חזקים ללקוחות."
+      },
+      {
+        "id": "a4",
+        "text": "שם כולל לדאטאבייסים החדשים מיושם בשנים האחרונות."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 26,
+    "question": "מדוע חישוב נתוני \"Big Data\" יותר מורכב מחישוב על דאטה בהיקף קטן?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כל מה שניתן לעשות בדאטה בהיקף קטן ניתן לעשות על Big Data אך לעיתים יש צורך להוסיף חישובים מורכבים יותר."
+      },
+      {
+        "id": "a2",
+        "text": "חישוב על Big Data תמיד יהיה יקר יותר מאשר על דאטה בהיקף קטן."
+      },
+      {
+        "id": "a3",
+        "text": "חישוב על Big Data אינו מדויק ומצריך קירובים (approximations)."
+      },
+      {
+        "id": "a4",
+        "text": "כל מה שניתן לעשות בדאטה בהיקף קטן ניתן לעשות על Big Data."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 27,
+    "question": "כשמחשבים את תוחלת הגיל הממוצע במדגם בין מיליון נתונים, לעומת חיפוש התפוז הממוצע בין מאה תפוחים, ורוצים לשמור על אותו משך זמן לביצוע החישוב, אנחנו צריכים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "פי 10,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a2",
+        "text": "פי 1,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a3",
+        "text": "פי 5,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a4",
+        "text": "פי 100,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 28,
+    "question": "כשמחשבים את החציון (median) בין מיליון נתונים, לעומת חיפוש התפוז הממוצע בין מאה תפוחים, ורוצים לשמור על אותו משך זמן לביצוע החישוב, אנחנו צריכים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "במקרה של חציון נדרש קודם חישוב שיורד את הזיקוק כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a2",
+        "text": "פי 1,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a3",
+        "text": "פי 10,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a4",
+        "text": "פי 100,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 29,
+    "question": "אפשר להשיג מהירות ביצוע גבוהה בחישובים על Big Data על ידי שימוש בכמה מהדרכים הבאות:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "חישוב מבוזר (distributed processing), שימוש במחשבים עם הרבה CPU's."
+      },
+      {
+        "id": "a2",
+        "text": "חישוב מבוזר (distributed processing), כתיבת קוד בשפת פייתון."
+      },
+      {
+        "id": "a3",
+        "text": "חישוב מפוזר (distributed processing), כתיבת קוד בשפת C."
+      },
+      {
+        "id": "a4",
+        "text": "חישוב מבוזר (distributed processing), שימוש ב CPU של אינטל בלבד."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 30,
+    "question": "לגבי מערכות Big Data, ה Service Level Agreement - SLA יכול לכלול את הפרמטרים הבאים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "אמינות (Reliability) של הדאטה, זמינות (Availability) של השירות, וזמן תגובה של השאילתות (queries)."
+      },
+      {
+        "id": "a2",
+        "text": "קיום אפליקציה אנדרואיד, קונסיסטנטיות (Consistency) של דאטה, זמינות (Availability) של מחשבים."
+      },
+      {
+        "id": "a3",
+        "text": "קיום אפליקציית iOS, קונסיסטנטיות (Consistency) של דאטה, זמינות (Availability) של השירות."
+      },
+      {
+        "id": "a4",
+        "text": "אמינות (Reliability) של המחשבים, זמינות (Availability) של השירות, וזמן תגובה של הדאטה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 31,
+    "question": "אילו משאבים ניתן להוסיף במצב scale-up (הגדלת משאבים במכונה) ?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "זיכרון, דיסק, הוספת CPU's, רוחב פס רשת."
+      },
+      {
+        "id": "a2",
+        "text": "זיכרון, שדרוג דיסק ל SSD, הוספת CPU's."
+      },
+      {
+        "id": "a3",
+        "text": "רק הוספת זיכרון."
+      },
+      {
+        "id": "a4",
+        "text": "רק הוספת CPU's."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 32,
+    "question": "אילו אפשרויות נותנים ספקי שירותי ענן (למשל AWS, GCS, Azure) לגבי הרצת תוכנה על השרתים שלהם? בחרו את התשובה הנכונה ביותר!",
+    "options": [
+      {
+        "id": "a1",
+        "text": "התקנת תוכנה על מחשבים וירטואליים של ספק שירותי הענן, משלמים לספק רק על המחשבים הוירטואליים."
+      },
+      {
+        "id": "a2",
+        "text": "התקנת תוכנה על מחשבים וירטואליים של ספק שירותי הענן, משלמים לספק גם על המחשבים הוירטואליים, וגם על כל קבלה שאנו מקבלים על המחשבים."
+      },
+      {
+        "id": "a3",
+        "text": "משלמים לספקי התמורה בלבד, כאשר אנחנו מתקינים בעצמנו מכונות וירטואליות."
+      },
+      {
+        "id": "a4",
+        "text": "ספקי שירותי ענן עוברים לאטנה שיש לו ערך רב."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 33,
+    "question": "מה זה Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "תוכנת קוד פתוח, לאחסון דאטה בכמויות גדולות והרצת תוכנה על אותו הדאטה."
+      },
+      {
+        "id": "a2",
+        "text": "דאטאבייס NoSQL המיועד לאחסון הרבה דאטה."
+      },
+      {
+        "id": "a3",
+        "text": "דאטאבייס רלציוני המיועד לאחסון הרבה דאטה."
+      },
+      {
+        "id": "a4",
+        "text": "תוכנה שאינה קוד פתוח ויש לשלם עליה, לאחסון דאטה בכמויות גדולות והרצת תוכנה על אותו הדאטה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 34,
+    "question": "המרכיבים של Hadoop הם:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "HDFS, MapReduce, YARN."
+      },
+      {
+        "id": "a2",
+        "text": "HDFS, MapReduce, Spark."
+      },
+      {
+        "id": "a3",
+        "text": "iOS, MapReduce, YARN."
+      },
+      {
+        "id": "a4",
+        "text": "HDFS, MapReduce."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 35,
+    "question": "איך ניתן להעלות קבצים מדיסק מקומי לקבצי HDFS?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "באמצעות פקודה: hadoop fs -copyFromLocal."
+      },
+      {
+        "id": "a2",
+        "text": "באמצעות פקודה: python copyToLocal."
+      },
+      {
+        "id": "a3",
+        "text": "באמצעות פקודה: python copyFromLocal."
+      },
+      {
+        "id": "a4",
+        "text": "באמצעות פקודה: hadoop fs -copyToLocal."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 36,
+    "question": "כמה reducers נוצרים בתוך ג'וב של MapReduce ב Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "לפי קונפיגורציה עם ערך default אשר ניתנת לשינוי."
+      },
+      {
+        "id": "a2",
+        "text": "כמספר המכונות שב cluster."
+      },
+      {
+        "id": "a3",
+        "text": "כמספר ה JVM's שרצים ב cluster."
+      },
+      {
+        "id": "a4",
+        "text": "באופן רנדומי לפי הערכה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 37,
+    "question": "באיזו שפה עלינו לכתוב את הקוד שמעביר דאטה מה mappers ל reducers ב Hadoop MapReduce?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "אין צורך לכתוב. הקוד הוא חלק מה MapReduce Framework."
+      },
+      {
+        "id": "a2",
+        "text": "פייתון בלבד."
+      },
+      {
+        "id": "a3",
+        "text": "רק דרך ה bash."
+      },
+      {
+        "id": "a4",
+        "text": "Java."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 38,
+    "question": "ב MapReduce Hadoop, מה הקשר בין מספר ה- mappers לבין מספר הקבצים שנכתבים ל output?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מספר קבצי ה output כתלות במספר ה reducers."
+      },
+      {
+        "id": "a2",
+        "text": "מספר קבצי ה output כתלות במספר ה mappers."
+      },
+      {
+        "id": "a3",
+        "text": "מספר קבצי ה output הוא המכפלה בין מספר ה mappers למספר ה reducers."
+      },
+      {
+        "id": "a4",
+        "text": "תמיד נכתב רק קובץ output אחד לכל ג'וב של MapReduce."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 39,
+    "question": "מה Apache Hive in?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מנוע שמשתמש ב MapReduce של Hadoop ומאפשר תחקור הדאטה בשפת SQL."
+      },
+      {
+        "id": "a2",
+        "text": "דאטאבייס NoSQL דומה ל Cassandra."
+      },
+      {
+        "id": "a3",
+        "text": "דאטאבייס רלציוני דומה ל MySQL."
+      },
+      {
+        "id": "a4",
+        "text": "מנוע עיבוד של Big data שמחליף את ה MapReduce של Hadoop."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 40,
+    "question": "דאטה במבנה קולונרי (Columnar data format) יכול לתת ביצועי קריאה טובים במקרה הבא:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בסריקה של טבלה עם הרבה עמודות כאשר רוצים להביא מספר קטן של עמודות."
+      },
+      {
+        "id": "a2",
+        "text": "בסריקה של טבלה עם הרבה עמודות כאשר רוצים להביא את כל העמודות."
+      },
+      {
+        "id": "a3",
+        "text": "בסריקה של טבלה עם מעט עמודות כאשר רוצים להביא מספר קטן של עמודות."
+      },
+      {
+        "id": "a4",
+        "text": "בסריקה של טבלה עם מעט עמודות כאשר רוצים להביא את כל העמודות."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 41,
+    "question": "מהו RDD בספארק? (Resilient Distributed Dataset)",
+    "options": [
+      {
+        "id": "a1",
+        "text": "ה API שעוטף נתנו דאטה ומשמש כרכיב מרכזי בתוכנית ספארק."
+      },
+      {
+        "id": "a2",
+        "text": "חלק במנוע של ספארק האחראי לשכפול נתונים ב cluster."
+      },
+      {
+        "id": "a3",
+        "text": "החלק בספארק שעובד עם קבצים גדולים בלבד ואינו מתאים לקבצים קטנים."
+      },
+      {
+        "id": "a4",
+        "text": "סוג הרישיון לקוד פתוח שקיים בספארק."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 42,
+    "question": "מה זה Spark Streaming?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "ספריה של ספארק המאפשרת עיבוד נתונים הזורמים בקצב גבוה, למשל מהאינטרנט."
+      },
+      {
+        "id": "a2",
+        "text": "ספריה של ספארק המאפשרת שאילתות בפורמט SQL."
+      },
+      {
+        "id": "a3",
+        "text": "זהו שם נרדף ל Apache Spark."
+      },
+      {
+        "id": "a4",
+        "text": "תוספת חדשה שהוסיפו ל Java 8."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 43,
+    "question": "מהו אחד היתרונות העיקריים של Apache Spark על פני Apache Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "Spark מהיר יותר מ Hadoop בדרך כלל."
+      },
+      {
+        "id": "a2",
+        "text": "Spark הוא קוד פתוח בעוד ש Hadoop מחייב תשלום."
+      },
+      {
+        "id": "a3",
+        "text": "אין יתרון, אפשר להשתמש בזה או בזה לפי העדפה אישית."
+      },
+      {
+        "id": "a4",
+        "text": "Spark מתאים לעיבוד על קבצים גדולים יותר בדרך כלל."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 44,
+    "question": "אילו פונקציות ב Apache Spark הן מאוחרות לביצוע Lazy processing?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "טרנספורמציות."
+      },
+      {
+        "id": "a2",
+        "text": "Actions."
+      },
+      {
+        "id": "a3",
+        "text": "כל הפונקציות בספארק הן lazy."
+      },
+      {
+        "id": "a4",
+        "text": "בספארק כל הפונקציות המוצעות מיידית ואינן lazy."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 45,
+    "question": "מה תבנית בקוד הזה של Apache Spark: sc.parallelize([1,2,3,4]).reduceByKey(func1)",
+    "options": [
+      {
+        "id": "a1",
+        "text": "הפונקציה reduceByKey מצפה ל RDD הבנוי מ key-value tuples."
+      },
+      {
+        "id": "a2",
+        "text": "הפונקציה parallelize אינה פונקציה בספארק."
+      },
+      {
+        "id": "a3",
+        "text": "הפונקציה reduceByKey היא action ולא transformation."
+      },
+      {
+        "id": "a4",
+        "text": "הפונקציה reduceByKey אינה מקבלת פרמטרים."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 46,
+    "question": "מה פירוש המושג Eventually Consistent?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בסביבה מבוזרת, לוקח זמן ועידכון להגיע לכל הרפליקות."
+      },
+      {
+        "id": "a2",
+        "text": "בסביבה מבוזרת, יש לפעמים הבדלים בין רפליקות שלא ניתן להתגבר עליהם."
+      },
+      {
+        "id": "a3",
+        "text": "בסביבה מבוזרת, יש רפליקציות על הדאטה."
+      },
+      {
+        "id": "a4",
+        "text": "בסביבה מבוזרת, בעיות ברשת יכולות לגרום לנזקים ב cluster."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 47,
+    "question": "מתי תתאים להשתמש ב Apache Kafka?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר רוצים להעביר נתונים מהאינטרנט בקצב גבוה לתוך Data Lake."
+      },
+      {
+        "id": "a2",
+        "text": "כשצריכים סטרימינג מאוד מהיר."
+      },
+      {
+        "id": "a3",
+        "text": "כשצריכים לעבוד עם Apache Spark לצורך קריאת קבצים גדולים במיוחד."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר יש לנו אפליקציה גדולה מאוד עם GUI וצריך זמני תגובה מהירים לאפליקציה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 48,
+    "question": "מתי נשתמש ב Time Windowing ב data streaming?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר רוצים לבצע פעולת חישוב על נתונים הנפרשים על פני חלון זמן."
+      },
+      {
+        "id": "a2",
+        "text": "כאשר מריצים תוכנת Java על מערכת הפעלה Windows."
+      },
+      {
+        "id": "a3",
+        "text": "כאשר רוצים לבצע פעולה חישובית על נתונים על הדיסק."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר עובדים על נתונים המגיעים ל Amazon Web Services."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 49,
+    "question": "מה זה NoSQL?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "שם כולל לדאטאבייסים שאינם רלציונים."
+      },
+      {
+        "id": "a2",
+        "text": "שם כולל לדאטאבייסים שלא תומכים בשפת SQL."
+      },
+      {
+        "id": "a3",
+        "text": "שם כולל לכל הדאטאבייסים הרלציונים והלא רלציונים."
+      },
+      {
+        "id": "a4",
+        "text": "דאטאבייס מסוג document store בלבד."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 50,
+    "question": "מה מנסים להבטיח NewSQL databases?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "דאטאבייסים שהם גם transactional וגם יכולים לגדול (scalable)."
+      },
+      {
+        "id": "a2",
+        "text": "דאטאבייסים דומים ל wide-columnar databases אבל חזקים הרבה יותר."
+      },
+      {
+        "id": "a3",
+        "text": "דאטאבייסים רלציוניים שהם חזקים ללקוחות."
+      },
+      {
+        "id": "a4",
+        "text": "שם כולל לדאטאבייסים החדשים מיושם בשנים האחרונות."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 51,
+    "question": "מהי הדאטה שלא תתאים לטיפול ב Big Data?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "קובץ הדאטה יהיה בגודל בנפח של Terabytes ולא תצריך שעות עיבוד של Big Data."
+      },
+      {
+        "id": "a2",
+        "text": "כל דאטה מעל Gigabytes נחשבת באופן אוטומטי ל Big Data."
+      },
+      {
+        "id": "a3",
+        "text": "כאשר נדרש עיבוד של קבצים עם נפח כולל של Gigabytes לצורך של Terabytes או אפילו Petabytes."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר בגלל קצב זרימת נתונים גבוהה נבחרנו להשתמש ב Apache Kafka."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 52,
+    "question": "מה ההבדל בין דאטה (Data) לאינפורמציה (Information)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "\"דאטה\" הם נתונים גולמיים, בעוד ש\"אינפורמציה\" הם נתונים בעלי משמעות."
+      },
+      {
+        "id": "a2",
+        "text": "\"אינפורמציה\" הם נתונים גולמיים, בעוד ש\"דאטה\" הם נתונים בעלי משמעות."
+      },
+      {
+        "id": "a3",
+        "text": "\"דאטה\" מהווה כמות נתונים גדולה שבדרך כלל, בעוד ש\"אינפורמציה\" היא דאטה בגודל מוגבל."
+      },
+      {
+        "id": "a4",
+        "text": "\"אינפורמציה\" מהווה כמות נתונים גדולה שיכולה לגדול, בעוד ש\"דאטה\" היא אינפורמציה בגודל מוגבל."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 53,
+    "question": "כשמחשבים את התפוז הגדול ביותר בין מיליון תפוחים, לעומת חיפוש התפוז הגדול ביותר בין מאה תפוחים, ורוצים לשמור על אותו משך זמן לביצוע החישוב, אנחנו צריכים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "פי 10,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a2",
+        "text": "פי 1,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a3",
+        "text": "פי 100,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a4",
+        "text": "אתו מספר מחשבים אבל פי מיליון יותר כוח CPU."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 54,
+    "question": "כשמחשבים את החציון של הגודל הממוצע בין מיליון תפוחים, לעומת חיפוש התפוז הממוצע בין מאה תפוחים, ורוצים לשמור על אותו משך זמן לביצוע החישוב, אנחנו צריכים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "פי 10,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a2",
+        "text": "פי 1,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a3",
+        "text": "פי 5,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a4",
+        "text": "פי 100,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 55,
+    "question": "אילו מהרכיבים אינם יכולים להיכלל ב Service Level Agreement - SLA לגבי מערכות Big Data?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "אורך חיים של המחשבים (Computer lifespan)."
+      },
+      {
+        "id": "a2",
+        "text": "אמינות (Reliability) של הדאטה."
+      },
+      {
+        "id": "a3",
+        "text": "זמינות (Availability) של השירות."
+      },
+      {
+        "id": "a4",
+        "text": "זמן תגובה של השאילתות (queries)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 56,
+    "question": "איזה מהבאים אינו אחד מהעקרונות במערכת של Big Data?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "שמירת דאטה בזיכרון במקום על הדיסק."
+      },
+      {
+        "id": "a2",
+        "text": "ניידות תוכנה (הוריזונטלית)."
+      },
+      {
+        "id": "a3",
+        "text": "שימוש של הקוד."
+      },
+      {
+        "id": "a4",
+        "text": "אידמפוטנציה (idempotency)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 57,
+    "question": "מהי העברה ה scale-up (הגדלת המשאבים במכונה) ל scale-out (הוספת מכונות דומות)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר ה database גדל ואינו יעיל."
+      },
+      {
+        "id": "a2",
+        "text": "כאשר המחשב הוותק עם מעט מאוד זיכרון פיזי."
+      },
+      {
+        "id": "a3",
+        "text": "כאשר יש נזקים ברשת."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר עובדים עם אמזון AWS."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 58,
+    "question": "מה ההבדל העקרוני בין קלאסטר (cluster) של Servers-Web לבין קלאסטר של Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בראשון כל מכונה עובדת עצמאית, ואילו בשני יש תלות בין רכיבי התוכנה הרצים על כל המכונות."
+      },
+      {
+        "id": "a2",
+        "text": "בראשון יש תלות בין רכיבי התוכנה הרצים על כל המכונות, ואילו בשני כל מכונה רצה עצמאית."
+      },
+      {
+        "id": "a3",
+        "text": "בראשון יש הגבלה על גודל הקלאסטר, ואילו בשני אין הגבלה."
+      },
+      {
+        "id": "a4",
+        "text": "בראשון אין הגבלה על גודל הקלאסטר, ואילו בשני גודל הקלאסטר מוגבל."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 59,
+    "question": "איזה מהבאים אינו דאטאבייס (Database)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "קפקא (Kafka)."
+      },
+      {
+        "id": "a2",
+        "text": "מייסקל (MySQL)."
+      },
+      {
+        "id": "a3",
+        "text": "דיבי2 (DB2)."
+      },
+      {
+        "id": "a4",
+        "text": "אורקל (Oracle)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 60,
+    "question": "איזה מהבאים אינו אחד המאפיינים של ACID Transactions בדאטאבייס?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מקבילות (Parallelism)."
+      },
+      {
+        "id": "a2",
+        "text": "אטומיות (Atomicity)."
+      },
+      {
+        "id": "a3",
+        "text": "קונסיסטנטיות (Consistency)."
+      },
+      {
+        "id": "a4",
+        "text": "דורביליות (Commit/rollback durability)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 61,
+    "question": "איך ניתן להעלות קבצים מדיסק מקומי לקבצי HDFS?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "באמצעות פקודה: hadoop fs -copyFromLocal."
+      },
+      {
+        "id": "a2",
+        "text": "באמצעות פקודה: python copyToLocal."
+      },
+      {
+        "id": "a3",
+        "text": "באמצעות פקודה: python copyFromLocal."
+      },
+      {
+        "id": "a4",
+        "text": "באמצעות פקודה: hadoop fs -copyToLocal."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 62,
+    "question": "האם Hadoop הוא דאטאבייס (Database)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "לא, הוא מסוגל לקבצים, אך אין לו אפשרות חיפוש מהיר על הקבצים."
+      },
+      {
+        "id": "a2",
+        "text": "כן, הוא יכול לקבל דאטה בכמויות גדולות יותר מכל דאטאבייס שקיים."
+      },
+      {
+        "id": "a3",
+        "text": "כן, הוא פשוט יכול להכיל דאטה בכמויות גדולות משאר הדאטאבייסים הקיימים."
+      },
+      {
+        "id": "a4",
+        "text": "כן, הוא דאטאבייס מסוג NoSQL."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 63,
+    "question": "מי מהבאים אינו רכיב של Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "S3."
+      },
+      {
+        "id": "a2",
+        "text": "HDFS."
+      },
+      {
+        "id": "a3",
+        "text": "MapReduce."
+      },
+      {
+        "id": "a4",
+        "text": "YARN."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 64,
+    "question": "ב-Hadoop-MapReduce, מה קובע כמה קבצים (partitions/splits) יווצרו בסוף התהליך?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מספר ה רדיוסרים (reducers)."
+      },
+      {
+        "id": "a2",
+        "text": "מספר המאפרים (mappers)."
+      },
+      {
+        "id": "a3",
+        "text": "מספר המאפרים כפול מספר הרדיוסרים (mappers X reducers)."
+      },
+      {
+        "id": "a4",
+        "text": "הגדרת ברירת מחדל (default) בהתקנה של hadoop."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 65,
+    "question": "בחר את המשפט הנכון ביותר לגבי HDFS:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "עדיף לשמור את אותו דאטה בקובץ קטן וגם להריץ באותה מערכת קבצים קטנים."
+      },
+      {
+        "id": "a2",
+        "text": "גודל הקבצים אינו משפיע על הביצועים."
+      },
+      {
+        "id": "a3",
+        "text": "מספר גדול של קבצים יגדיל פי ארבע את זמן ה-MapReduce, בהנחה שמספר השירותים לא השתנה."
+      },
+      {
+        "id": "a4",
+        "text": "מספר גדול של קבצים לא ישנה את זמן ה-MapReduce, בהנחה שמספר השירותים לא השתנה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 66,
+    "question": "מהו ההבדל בין Hadoop-I-Apache-Hive אשר מריץ MapReduce על השפה?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "הראשון הוא ממשק SQL אשר מריץ על השני."
+      },
+      {
+        "id": "a2",
+        "text": "הראשון הוא ממשק SQL אשר מריץ HDFS על השני."
+      },
+      {
+        "id": "a3",
+        "text": "הראשון הוא ממשק Spark אשר מריץ SQL על השני."
+      },
+      {
+        "id": "a4",
+        "text": "הראשון הוא ממשק HDFS אשר מריץ SQL על השני."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 67,
+    "question": "דאטה במבנה קולונרי (Columnar data format) יכול לתת ביצועי קריאה טובים במיוחד במקרה הבא:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בסריקה של טבלה בעלת הרבה עמודות כאשר רוצים להביא מספר קטן של עמודות."
+      },
+      {
+        "id": "a2",
+        "text": "דאטה במבנה קולונרי תמיד מהיר יותר מדאטה המסודר בשורות על הדיסק."
+      },
+      {
+        "id": "a3",
+        "text": "דאטה במבנה קולונרי תמיד איטי יותר מדאטה המסודר בשורות על הדיסק."
+      },
+      {
+        "id": "a4",
+        "text": "בסריקה של טבלה בעלת מעט עמודות כאשר רוצים להביא את כל העמודות."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 68,
+    "question": "אילו מהפונקציות הן Apache Spark ב transformations?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "map, filter, flatMap, groupByKey."
+      },
+      {
+        "id": "a2",
+        "text": "map, filter, groupByKey, reduce."
+      },
+      {
+        "id": "a3",
+        "text": "map, filter, collect, reduceByKey."
+      },
+      {
+        "id": "a4",
+        "text": "map, filter, show, reduce."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 69,
+    "question": "מה זה SparkMLlib?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "ספריה של ספארק המאפשרת להשתמש לחישוב למידת מכונה."
+      },
+      {
+        "id": "a2",
+        "text": "ספריה של ספארק המאפשרת שאילתות בפורמט SQL."
+      },
+      {
+        "id": "a3",
+        "text": "זהו שם נרדף ל Apache Hive."
+      },
+      {
+        "id": "a4",
+        "text": "ספרית למידת מכונה ב Java 15."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 70,
+    "question": "אילו מהפונקציות הבאות הן Apache Spark ב Actions?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "takeOrdered, reduce, collect, count."
+      },
+      {
+        "id": "a2",
+        "text": "collect, reduceByKey, count, filter."
+      },
+      {
+        "id": "a3",
+        "text": "filter, collect, takeOrdered, count."
+      },
+      {
+        "id": "a4",
+        "text": "count, map, takeOrdered, collect."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 71,
+    "question": "מה היתרון העיקרי של S3 על פני HDFS?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "עם S3 לא צריך להתקין ולתחזק מכונות ודיסקים."
+      },
+      {
+        "id": "a2",
+        "text": "S3 מהיר יותר מ HDFS."
+      },
+      {
+        "id": "a3",
+        "text": "S3 יכול להחזיק קבצים יותר גדולים."
+      },
+      {
+        "id": "a4",
+        "text": "S3 אמין יותר מ HDFS."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 72,
+    "question": "מתי תתאים להשתמש ב Apache Kafka?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר רוצים להעביר נתונים מהאינטרנט בקצב גבוה לתוך Data Lake."
+      },
+      {
+        "id": "a2",
+        "text": "כשצריכים סטרימינג מאוד מהיר."
+      },
+      {
+        "id": "a3",
+        "text": "כשצריכים לקרוא קבצים גדולים במיוחד."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר יש לנו אפליקציה גדולה מאוד עם GUI וצריך זמני תגובה מהירים לאפליקציה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 73,
+    "question": "מהי פעולת ה \"סדרת\" (events order) ב Apache Kafka?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "אירועים (events) נקראים בסדר שבו הם נכנסו."
+      },
+      {
+        "id": "a2",
+        "text": "אירועים (events) מאבדים את סדר הכתיבה שלהם כתוצאה ממערכת העבודה של Apache Kafka."
+      },
+      {
+        "id": "a3",
+        "text": "רפליקציה הן תכונה שוות גרמת לכך שאירועים (events) נכנסים באיחור למכונה שממנה קוראים."
+      },
+      {
+        "id": "a4",
+        "text": "אירועים (events) יכולים להיות משוכפלים כתוצאה מנפילת חומרה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 74,
+    "question": "מה ההבדל בין תור (queue) לנושא (topic)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בראשון כל אלאמנט יכול להקרא רק פעם אחת, ואילו בשני כל אלמנט יכול להקרא כמה פעמים."
+      },
+      {
+        "id": "a2",
+        "text": "בראשון כל אלאמנט יכול להקרא כמה פעמים ואילו בשני כל אלמנט יכול להקרא רק פעם אחת."
+      },
+      {
+        "id": "a3",
+        "text": "הראשון עובד רק בקפקא והשני בכל סוגי התורים האחרים."
+      },
+      {
+        "id": "a4",
+        "text": "הראשון עובד בכל סוגי התורים והשני רק בקפקא."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 75,
+    "question": "איך ה producers תומכים במדרגה של קצב זרימת הנתונים (Scalability) ב-Apache Kafka?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "על ידי הוספת partitions ,producers ו consumers בהתאם."
+      },
+      {
+        "id": "a2",
+        "text": "על ידי הוספת consumers ללא צורך בהוספת partitions."
+      },
+      {
+        "id": "a3",
+        "text": "על ידי הוספת producers ללא צורך בהוספת partitions."
+      },
+      {
+        "id": "a4",
+        "text": "על ידי הוספת producers ו consumers בהתאם."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 76,
+    "question": "מהי דאטה שלא תתאים לטיפול ב Big Data?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר הדאטה קטנה מדי לטיפול באופן יעיל, לא תצריך שעות עיבוד של Big Data."
+      },
+      {
+        "id": "a2",
+        "text": "כאשר הדאטה צפויה לגדול בנפחה באופן לא ודאי ואין צורך שעות עיבוד של Big Data."
+      },
+      {
+        "id": "a3",
+        "text": "כל דאטה מעל Gigabytes נחשבת באופן אוטומטי ל Big Data."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר הדאטה שלנו עבור הגדלים של Gigabytes לצדדים של Terabytes או אפילו Petabytes."
+      },
+      {
+        "id": "a5",
+        "text": "כאשר בגלל קצב זרימת נתונים גבוהה נבחרנו להשתמש ב Apache Kafka."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 77,
+    "question": "מהי גישה מעשית וקונבנציונלית לשמירת דאטה (למשל Hadoop) לשיטות של Big Data?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כשהן תומכות בסוגי קבצים מיידי ואינו עובד עם ה-SQL."
+      },
+      {
+        "id": "a2",
+        "text": "כשהן נותנות לפתור את כל הדאטה בדיסק בודד במחשב בודד."
+      },
+      {
+        "id": "a3",
+        "text": "זוהי החלטה עסקית יותר מאשר טכנית, מגבלת עלות וכלים יכולים להכריע לכלי Big Data לפתרון עלויות."
+      },
+      {
+        "id": "a4",
+        "text": "בדרך כלל נתאים מערכות בשילוב של Big Data ולא נשתמש ב RDBMS שהוא מיושן."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 78,
+    "question": "כשמחשבים את התפוז הגדול ביותר בין מיליון תפוחים, לעומת חיפוש התפוז הגדול ביותר בין מאה תפוחים, ורוצים לשמור על אותו משך זמן לביצוע החישוב, אנחנו צריכים:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "פי 10,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a2",
+        "text": "פי 1,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a3",
+        "text": "פי 100,000 יותר מחשבים כדי לסיים את העבודה באותו זמן."
+      },
+      {
+        "id": "a4",
+        "text": "אתו מספר מחשבים אבל פי מיליון יותר כוח CPU."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 79,
+    "question": "אילו מהבאים אינם יכולים להיכלל ב Service Level Agreement - SLA לגבי מערכות Big Data?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "אורך חיים של המחשבים (Computer lifespan)."
+      },
+      {
+        "id": "a2",
+        "text": "אמינות (Reliability) של הדאטה."
+      },
+      {
+        "id": "a3",
+        "text": "זמינות (Availability) של השירות."
+      },
+      {
+        "id": "a4",
+        "text": "זמן תגובה של השאילתות (queries)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 80,
+    "question": "איזה מהבאים אינו אחד מהעקרונות בעיצוב של מערכת Big Data?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "שמירת דאטה בזיכרון במקום על הדיסק."
+      },
+      {
+        "id": "a2",
+        "text": "ניידות תוכנה (הוריזונטלית)."
+      },
+      {
+        "id": "a3",
+        "text": "שימוש של הקוד."
+      },
+      {
+        "id": "a4",
+        "text": "אידמפוטנציה (idempotency)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 81,
+    "question": "מהי העברה מ scale-up (הגדלת המשאבים במכונה) ל scale-out (הוספת מכונות דומות)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר לא ניתן להוסיף רכיבי חומרה למכונה."
+      },
+      {
+        "id": "a2",
+        "text": "כאשר העתיד במערכת נראה שיש להן."
+      },
+      {
+        "id": "a3",
+        "text": "כאשר חשוב לנו שהמערכת תהיה קונסיסטנטית גבוהה (Consistency)."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר חשוב להעביר את המוצר לספקי ענן (AWS, GCS, Azure in Consistency)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 82,
+    "question": "אילו משאבים ניתן להוסיף במצב של scale-up (הגדלת משאבים במכונה)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "זיכרון, דיסק."
+      },
+      {
+        "id": "a2",
+        "text": "זיכרון, שדרוג דיסק ל SSD, הוספת CPU's."
+      },
+      {
+        "id": "a3",
+        "text": "זיכרון, רוחב פס רשת, הוספת מכונות לקלאסטר."
+      },
+      {
+        "id": "a4",
+        "text": "רק הוספת CPU's."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 83,
+    "question": "מה ההבדל העקרוני בין קלאסטר (cluster) של Servers-Web לבין קלאסטר של Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בראשון כל מכונה עובדת עצמאית, ואילו בשני יש תלות בין רכיבי התוכנה הרצים על כל המכונות."
+      },
+      {
+        "id": "a2",
+        "text": "בראשון יש תלות בין רכיבי התוכנה הרצים על כל המכונות, ואילו בשני כל מכונה רצה עצמאית."
+      },
+      {
+        "id": "a3",
+        "text": "בראשון יש הגבלה על גודל הקלאסטר, ואילו בשני אין הגבלה."
+      },
+      {
+        "id": "a4",
+        "text": "בראשון אין הגבלה על גודל הקלאסטר, ואילו בשני גודל הקלאסטר מוגבל."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 84,
+    "question": "איזה מהבאים אינו דאטאבייס (Database)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "קפקא (Kafka)."
+      },
+      {
+        "id": "a2",
+        "text": "מייסקל (MySQL)."
+      },
+      {
+        "id": "a3",
+        "text": "דיבי2 (DB2)."
+      },
+      {
+        "id": "a4",
+        "text": "אורקל (Oracle)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 85,
+    "question": "איזה מהבאים אינו אחד המאפיינים של ACID Transactions בדאטאבייס?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מקבילות (Parallelism)."
+      },
+      {
+        "id": "a2",
+        "text": "אטומיות (Atomicity)."
+      },
+      {
+        "id": "a3",
+        "text": "קונסיסטנטיות (Consistency)."
+      },
+      {
+        "id": "a4",
+        "text": "דורביליות (Commit/rollback durability)."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 86,
+    "question": "איך ניתן להעלות קבצים מדיסק מקומי לקבצי HDFS?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "באמצעות פקודה: hadoop fs -copyFromLocal."
+      },
+      {
+        "id": "a2",
+        "text": "באמצעות פקודה: python copyToLocal."
+      },
+      {
+        "id": "a3",
+        "text": "באמצעות פקודה: python copyFromLocal."
+      },
+      {
+        "id": "a4",
+        "text": "באמצעות פקודה: hadoop fs -copyToLocal."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 87,
+    "question": "האם Hadoop הוא דאטאבייס (Database)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "לא, הוא מסוגל לקבצים, אך אין לו אפשרות חיפוש מהיר על הקבצים."
+      },
+      {
+        "id": "a2",
+        "text": "לא, הוא יכול להכיל דאטה בכמויות גדולות יותר מכל דאטאבייסים שקיים."
+      },
+      {
+        "id": "a3",
+        "text": "כן, הוא פשוט יכול להכיל דאטה בכמויות גדולות משאר הדאטאבייסים הקיימים."
+      },
+      {
+        "id": "a4",
+        "text": "כן, הוא דאטאבייס מסוג NoSQL."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 88,
+    "question": "מי מהבאים אינו רכיב של Hadoop?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "S3."
+      },
+      {
+        "id": "a2",
+        "text": "HDFS."
+      },
+      {
+        "id": "a3",
+        "text": "MapReduce."
+      },
+      {
+        "id": "a4",
+        "text": "YARN."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 89,
+    "question": "ב-Hadoop-MapReduce, מה קובע כמה קבצים (partitions/splits) יווצרו בסוף התהליך?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מספר הרדיוסרים (reducers)."
+      },
+      {
+        "id": "a2",
+        "text": "מספר המאפרים (mappers)."
+      },
+      {
+        "id": "a3",
+        "text": "מספר המאפרים כפול מספר הרדיוסרים (mappers X reducers)."
+      },
+      {
+        "id": "a4",
+        "text": "הגדרת ברירת מחדל (default) בהתקנה של hadoop."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 90,
+    "question": "בחר את המשפט הנכון ביותר לגבי HDFS:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "עדיף לשמור את אותו דאטה בקובץ קבצים גדולים ולא בהרבה קבצים קטנים."
+      },
+      {
+        "id": "a2",
+        "text": "גודל הקבצים אינו משפיע על הביצועים."
+      },
+      {
+        "id": "a3",
+        "text": "מספר גדול של קבצים יגדיל פי ארבע את זמן ה-MapReduce, בהנחה שמספר השירותים לא השתנה."
+      },
+      {
+        "id": "a4",
+        "text": "מספר גדול של קבצים לא ישנה את זמן ה-MapReduce, בהנחה שמספר השירותים לא השתנה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 91,
+    "question": "מה ההבדל בין Hadoop-I-Apache-Hive אשר מריץ MapReduce על השפה?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "הראשון הוא ממשק SQL אשר מריץ על השני."
+      },
+      {
+        "id": "a2",
+        "text": "הראשון הוא ממשק SQL אשר מריץ HDFS על השני."
+      },
+      {
+        "id": "a3",
+        "text": "הראשון הוא ממשק Spark אשר מריץ SQL על השני."
+      },
+      {
+        "id": "a4",
+        "text": "הראשון הוא ממשק HDFS אשר מריץ SQL על השני."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 92,
+    "question": "דאטה במבנה קולונרי (Columnar) נותן ביצועים דומים או פחות טובים מדאטאבייס רגיל במקרה הבא:",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בסריקה של טבלה עם הרבה עמודות כאשר רוצים להביא את כל העמודות."
+      },
+      {
+        "id": "a2",
+        "text": "בסריקה של טבלה עם הרבה עמודות כאשר רוצים להביא מספר קטן של עמודות."
+      },
+      {
+        "id": "a3",
+        "text": "בסריקה של טבלה עם מעט עמודות כאשר רוצים להביא מספר קטן של עמודות."
+      },
+      {
+        "id": "a4",
+        "text": "בסריקה של טבלה עם מעט עמודות כאשר רוצים להביא את כל העמודות."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 93,
+    "question": "אילו מהפונקציות הבאות הן Apache-Spark ב transformations אשר מקבלות אך ורק RDD מסוג key-value-tuple?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "join, groupByKey, reduceByKey."
+      },
+      {
+        "id": "a2",
+        "text": "reduceByKey, groupByKey, reduce."
+      },
+      {
+        "id": "a3",
+        "text": "reduce, collect, reduceByKey."
+      },
+      {
+        "id": "a4",
+        "text": "filter, reduceByKey, reduce."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 94,
+    "question": "מה זה SparkMLlib?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "ספריה של ספארק המאפשרת להשתמש לחישוב למידת מכונה."
+      },
+      {
+        "id": "a2",
+        "text": "ספריה של ספארק המאפשרת שאילתות בפורמט SQL."
+      },
+      {
+        "id": "a3",
+        "text": "זהו שם נרדף ל Apache Hive."
+      },
+      {
+        "id": "a4",
+        "text": "ספרית למידת מכונה ב Java 15."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 95,
+    "question": "אילו פונקציות ב Apache-Spark אינן מאוחרות לביצוע (Lazy Processing)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "Actions."
+      },
+      {
+        "id": "a2",
+        "text": "Transformations."
+      },
+      {
+        "id": "a3",
+        "text": "כל הפונקציות בספארק הן lazy."
+      },
+      {
+        "id": "a4",
+        "text": "בספארק כל הפונקציות מבוצעות מיידית ואינן lazy."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 96,
+    "question": "מהו אחד היתרונות של S3 על פני HDFS בעבודה עם Hadoop MapReduce?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "עם HDFS חוסכים בהעברה של תשדורת ברשת."
+      },
+      {
+        "id": "a2",
+        "text": "יש ביטחון רבה יותר בנכונות התוצאות עם HDFS."
+      },
+      {
+        "id": "a3",
+        "text": "HDFS יכול להחזיק קבצים יותר גדולים."
+      },
+      {
+        "id": "a4",
+        "text": "HDFS אמין יותר מ S3."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 97,
+    "question": "מתי נרצה להשתמש ב Apache Kafka?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "כאשר נרצה לבצע חישוב מהיר של events ונכנסים בקצב גבוה."
+      },
+      {
+        "id": "a2",
+        "text": "כשצריך להתאים לאירועים ל scale-out."
+      },
+      {
+        "id": "a3",
+        "text": "כשצריכים דאטאבייס ל Data Lake) אינם מספיק גדולים."
+      },
+      {
+        "id": "a4",
+        "text": "כאשר אפליקצית ה-web שלנו צריכה לאט מדי להשתמש הקצה."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 98,
+    "question": "איך פותרים את בעיית ה-\"סדר\" (event order) ב-Apache Kafka מבלי לאבד את סקלביליות (scalability)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "מחלקים את ה-events לפי מפתח (key) ומושיבים ל-partitions שונים."
+      },
+      {
+        "id": "a2",
+        "text": "דואגים שיהיה מספר partitions גדול ככל האפשר ומוכנות של Kafka."
+      },
+      {
+        "id": "a3",
+        "text": "דואגים שיהיה רק partition אחד לכל טופיק (topic)."
+      },
+      {
+        "id": "a4",
+        "text": "אין צורך לעשות דבר. Kafka דואג בעצמו לפתור את בעיית הסדר."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 99,
+    "question": "מה ההבדל בין תור (queue) לנושא (topic)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "בראשון כל אלאמנט יכול להיקרא רק פעם אחת ואילו בשני כל אלמנט יכול להקרא כמה פעמים."
+      },
+      {
+        "id": "a2",
+        "text": "בראשון כל אלאמנט יכול להיקרא כמה פעמים ואילו בשני כל אלמנט יכול להקרא רק פעם אחת."
+      },
+      {
+        "id": "a3",
+        "text": "הראשון עובד רק בקפקא והשני בכל סוגי התורים האחרים."
+      },
+      {
+        "id": "a4",
+        "text": "הראשון עובד בכל סוגי התורים והשני רק בקפקא."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  },
+  {
+    "id": 100,
+    "question": "איך ב Apache Kafka תומכים בגדילה של קצב זרימת הנתונים (Scalability)?",
+    "options": [
+      {
+        "id": "a1",
+        "text": "על ידי הוספת consumers ו partitions בהתאם."
+      },
+      {
+        "id": "a2",
+        "text": "על ידי הוספת consumers ללא צורך בהוספת partitions."
+      },
+      {
+        "id": "a3",
+        "text": "על ידי הוספת producers ללא צורך בהוספת partitions."
+      },
+      {
+        "id": "a4",
+        "text": "על ידי הוספת consumers ו producers בהתאם."
+      }
+    ],
+    "correctOptionId": "a1",
+    "reference": {
+      "videoName": null,
+      "time": null,
+      "quote": null
+    }
+  }
+]
