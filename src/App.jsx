@@ -41,7 +41,19 @@ const translations = {
     bigDataDescription: 'שאלות מתקדמות על מושגי ביג דאטה וטכניקות',
     nlpQuiz: 'חידון NLP',
     nlpDescription: 'יסודות עיבוד שפה טבעית ויישומים',
-    language: 'שפה'
+    bigDataExamQuiz: 'מבחן ביג דאטה',
+    bigDataExamDescription: 'שאלות משוחזרות ממבחן בביג דאטה',
+    language: 'שפה',
+    sourcePDF: 'מקור PDF:',
+    page: 'עמוד:',
+    configureQuiz: 'הגדרות חידון',
+    questionRange: 'טווח שאלות',
+    numberOfQuestions: 'מספר שאלות נבחר',
+    from: 'מתוך',
+    shuffleQuestions: 'ערבב שאלות',
+    shuffleDescription: 'השאלות והתשובות יוצגו בסדר אקראי.',
+    start: 'התחל',
+    to: 'עד'
   },
   en: {
     title: 'Interactive Video Quiz',
@@ -81,7 +93,19 @@ const translations = {
     bigDataDescription: 'Advanced questions on big data concepts and techniques',
     nlpQuiz: 'NLP Quiz',
     nlpDescription: 'Natural Language Processing fundamentals and applications',
-    language: 'Language'
+    bigDataExamQuiz: 'Big Data Exam',
+    bigDataExamDescription: 'Reconstructed questions from a Big Data exam',
+    language: 'Language',
+    sourcePDF: 'Source PDF:',
+    page: 'Page:',
+    configureQuiz: 'Configure Quiz',
+    questionRange: 'Question Range',
+    numberOfQuestions: 'Number of questions',
+    from: 'from',
+    shuffleQuestions: 'Shuffle Questions',
+    shuffleDescription: 'Questions and their answers will be in a random order.',
+    start: 'Start',
+    to: 'to'
   }
 }
 
@@ -114,42 +138,38 @@ function shuffleQuestionsAndOptions(questions) {
 }
 
 function useQuizData(url) {
-  const [data, setData] = useState(/** @type {QuizQuestion[]|null} */(null))
-  const [loading, setLoading] = useState(false) // Start with false, only set true when actually fetching
+  const [allQuestions, setAllQuestions] = useState(/** @type {QuizQuestion[]|null} */(null))
+  const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+
   useEffect(() => {
     if (!url) {
-      setLoading(false)
-      setData(null)
+      setAllQuestions(null)
       setError('')
       return
     }
     let active = true
     setLoading(true)
-    console.log('Fetching quiz data from:', url) // Debug log
     fetch(url)
-      .then(r => { 
-        console.log('Fetch response:', r.status, r.statusText) // Debug log
-        if(!r.ok) throw new Error(`Failed to load quiz data (${r.status}): ${r.statusText}`)
-        return r.json() 
+      .then(r => {
+        if (!r.ok) throw new Error(`Failed to load quiz data (${r.status}): ${r.statusText}`)
+        return r.json()
       })
-      .then(json => { 
-        if(active) { 
-          console.log('Quiz data loaded:', json.length, 'questions') // Debug log
-          // Shuffle questions and options when data loads
-          const shuffledData = shuffleQuestionsAndOptions(json)
-          setData(shuffledData); 
-          setError('') 
-        } 
+      .then(json => {
+        if (active) {
+          // Store the original, unshuffled questions
+          setAllQuestions(json)
+          setError('')
+        }
       })
-      .catch(e => { 
-        console.error('Quiz fetch error:', e) // Debug log
-        if(active) setError(e.message || 'Error')
+      .catch(e => {
+        if (active) setError(e.message || 'Error')
       })
       .finally(() => active && setLoading(false))
     return () => { active = false }
   }, [url])
-  return { data, loading, error }
+
+  return { allQuestions, loading, error }
 }
 
 const LETTERS = ['A','B','C','D','E','F','G','H']
@@ -160,11 +180,19 @@ function App() {
   
   // Fix URL path for both localhost and production
   const getQuizUrl = (filename) => {
-    // Use import.meta.env.BASE_URL which respects the vite.config base setting
     return `${import.meta.env.BASE_URL}${filename}`
   }
   
-  const { data: questions, loading, error } = useQuizData(selectedQuiz ? getQuizUrl(selectedQuiz) : null)
+  const { allQuestions, loading, error } = useQuizData(selectedQuiz ? getQuizUrl(selectedQuiz) : null)
+  
+  // State for the active quiz questions, after user configuration
+  const [questions, setQuestions] = useState(null)
+
+  // Quiz configuration state
+  const [questionRange, setQuestionRange] = useState([1, 1])
+  const [numQuestions, setNumQuestions] = useState(1)
+  const [shuffle, setShuffle] = useState(true)
+
   const [index, setIndex] = useState(0)
   const [answers, setAnswers] = useState([]) // {questionId, chosenId, correct:boolean}
   const [selected, setSelected] = useState(null)
@@ -173,6 +201,36 @@ function App() {
 
   const t = translations[language] // Current language translations
   const isRTL = language === 'he'
+
+  // When allQuestions are loaded, update the configuration defaults
+  useEffect(() => {
+    if (allQuestions) {
+      const max = allQuestions.length
+      setQuestionRange([1, max])
+      setNumQuestions(max)
+    }
+  }, [allQuestions])
+
+  const handleStartQuiz = () => {
+    if (!allQuestions) return
+    
+    // 1. Slice the questions based on the selected range (adjusting for 0-based index)
+    let selectedQuestions = allQuestions.slice(questionRange[0] - 1, questionRange[1])
+
+    // 2. Take the desired number of questions from the sliced pool
+    selectedQuestions = selectedQuestions.slice(0, numQuestions)
+
+    // 3. Shuffle if the user wants to
+    if (shuffle) {
+      selectedQuestions = shuffleQuestionsAndOptions(selectedQuestions)
+    } else {
+      // Still shuffle the options within each question for fairness
+      selectedQuestions = selectedQuestions.map(q => ({ ...q, options: shuffleArray(q.options) }))
+    }
+    
+    setQuestions(selectedQuestions)
+    setStarted(true)
+  }
 
   const total = questions?.length || 0
   const current = questions ? questions[index] : null
@@ -199,10 +257,13 @@ function App() {
     setSelected(null)
     setRevealed(false)
     setStarted(false)
+    // Keep the same configuration, just restart the quiz
+    handleStartQuiz()
   }
 
   const resetToQuizSelection = () => {
     setSelectedQuiz(null)
+    setQuestions(null)
     setAnswers([])
     setIndex(0)
     setSelected(null)
@@ -210,24 +271,13 @@ function App() {
     setStarted(false)
   }
 
-  const reshuffleAndRestart = () => {
-    if (questions) {
-      // Re-shuffle the current quiz data
-      const reshuffledData = shuffleQuestionsAndOptions(questions)
-      // Force re-render by updating the questions state
-      setAnswers([])
-      setIndex(0)
-      setSelected(null)
-      setRevealed(false)
-      setStarted(true)
-      // Trigger a re-fetch to get new shuffle
-      setSelectedQuiz(prev => {
-        const temp = prev
-        setSelectedQuiz(null)
-        setTimeout(() => setSelectedQuiz(temp), 0)
-        return null
-      })
-    }
+  const resetToConfig = () => {
+    setQuestions(null)
+    setAnswers([])
+    setIndex(0)
+    setSelected(null)
+    setRevealed(false)
+    setStarted(false)
   }
 
   useEffect(() => { // scroll into view on question change
@@ -241,7 +291,8 @@ function App() {
   const quizOptions = [
     { id: 'test.json', name: t.sampleQuiz, description: t.sampleDescription },
     { id: 'bigData.json', name: t.bigDataQuiz, description: t.bigDataDescription },
-    { id: 'NNNLP.json', name: t.nlpQuiz, description: t.nlpDescription }
+    { id: 'NNNLP.json', name: t.nlpQuiz, description: t.nlpDescription },
+    { id: 'bigdata_exam_questions_80.json', name: t.bigDataExamQuiz, description: t.bigDataExamDescription }
   ]
 
   return (
@@ -300,13 +351,72 @@ function App() {
         </div>
       )}
 
-      {!loading && !error && selectedQuiz && !started && questions && (
+      {!loading && !error && selectedQuiz && !started && allQuestions && (
         <div className="card fade-in">
-          <h2>{t.readyToBegin}</h2>
-          <p style={{marginTop:'0.6rem', lineHeight:1.4}}>{t.readyDescription}</p>
+          <h2>{t.configureQuiz}</h2>
+          
+          <div className="config-item">
+            <label htmlFor="num-questions-slider">{t.numberOfQuestions}: <strong>{numQuestions}</strong> {t.from} {questionRange[1] - questionRange[0] + 1}</label>
+            <input 
+              type="range" 
+              id="num-questions-slider"
+              min="1"
+              max={questionRange[1] - questionRange[0] + 1}
+              value={numQuestions}
+              onChange={(e) => setNumQuestions(Number(e.target.value))}
+              className="slider"
+            />
+          </div>
+
+          <div className="config-item">
+            <label>{t.questionRange}: <strong>{questionRange[0]}</strong> {t.to} <strong>{questionRange[1]}</strong></label>
+            <div className="range-inputs">
+              <input 
+                type="number" 
+                min="1"
+                max={allQuestions.length}
+                value={questionRange[0]}
+                onChange={(e) => {
+                  const start = Math.max(1, Number(e.target.value));
+                  const end = Math.max(start, questionRange[1]);
+                  setQuestionRange([start, end]);
+                  if (numQuestions > (end - start + 1)) {
+                    setNumQuestions(end - start + 1);
+                  }
+                }}
+              />
+              <input 
+                type="number" 
+                min={questionRange[0]}
+                max={allQuestions.length}
+                value={questionRange[1]}
+                onChange={(e) => {
+                  const end = Math.min(allQuestions.length, Number(e.target.value));
+                  const start = Math.min(end, questionRange[0]);
+                  setQuestionRange([start, end]);
+                  if (numQuestions > (end - start + 1)) {
+                    setNumQuestions(end - start + 1);
+                  }
+                }}
+              />
+            </div>
+          </div>
+
+          <div className="config-item">
+            <label className="toggle-switch">
+              <input 
+                type="checkbox" 
+                checked={shuffle}
+                onChange={(e) => setShuffle(e.target.checked)}
+              />
+              <span className="switch"></span>
+              <span className="label-text">{t.shuffleQuestions}</span>
+            </label>
+            <p className="config-description">{t.shuffleDescription}</p>
+          </div>
+
           <div className="actions">
-            <button className="btn primary" onClick={()=>setStarted(true)}>{t.startQuiz}</button>
-            <button className="btn primary" onClick={reshuffleAndRestart}>{t.shuffleStart}</button>
+            <button className="btn primary" onClick={handleStartQuiz}>{t.start}</button>
             <button className="btn outline" onClick={resetToQuizSelection}>{t.chooseDifferent}</button>
           </div>
         </div>
@@ -347,13 +457,23 @@ function App() {
                 <p style={{margin:0}}><strong>{t.incorrect}</strong> {t.incorrectMessage} {current.options.find(o=>o.id===current.correctOptionId)?.text}</p>
               )}
               <div className="reference">
-                <div><strong>{t.sourceVideo}</strong> <code>{current.reference.videoName}</code> {t.at} <code>{current.reference.time}</code></div>
-                <div className="quote">“{current.reference.quote}”</div>
+                {current.reference.videoName ? (
+                  <>
+                    <div><strong>{t.sourceVideo}</strong> <code>{current.reference.videoName}</code> {t.at} <code>{current.reference.time}</code></div>
+                    <div className="quote">“{current.reference.quote}”</div>
+                  </>
+                ) : (
+                  <>
+                    <div><strong>{t.sourcePDF}</strong> <code>{current.reference.sourcePDF}</code></div>
+                    {current.reference.pageHint && <div><strong>{t.page}</strong> {current.reference.pageHint}</div>}
+                    {current.reference.note && <div className="quote">{current.reference.note}</div>}
+                  </>
+                )}
               </div>
               <div className="actions" style={{marginTop:'1.25rem'}}>
                 {index < total - 1 && <button className="btn primary" onClick={goNext}>{t.nextQuestion}</button>}
                 {index === total -1 && <button className="btn primary" onClick={goNext}>{t.finish}</button>}
-                <button className="btn outline" onClick={restart}>{t.restart}</button>
+                <button className="btn outline" onClick={resetToConfig}>{t.restart}</button>
                 <button className="btn outline" onClick={resetToQuizSelection}>{t.chooseQuizButton}</button>
               </div>
             </div>
@@ -380,8 +500,18 @@ function App() {
                       {correctOpt && <span className='pill good'>{t.answer} {correctOpt.text}</span>}
                     </div>
                     <div className="reference">
-                      <div><strong>{t.video}</strong> <code>{q.reference.videoName}</code> @ <code>{q.reference.time}</code></div>
-                      <div className="quote">“{q.reference.quote}”</div>
+                      {q.reference.videoName ? (
+                        <>
+                          <div><strong>{t.video}</strong> <code>{q.reference.videoName}</code> @ <code>{q.reference.time}</code></div>
+                          <div className="quote">“{q.reference.quote}”</div>
+                        </>
+                      ) : (
+                        <>
+                          <div><strong>{t.sourcePDF}</strong> <code>{q.reference.sourcePDF}</code></div>
+                          {q.reference.pageHint && <div><strong>{t.page}</strong> {q.reference.pageHint}</div>}
+                          {q.reference.note && <div className="quote">{q.reference.note}</div>}
+                        </>
+                      )}
                     </div>
                   </div>
                 )
@@ -389,7 +519,7 @@ function App() {
             </div>
             <div className="actions" style={{marginTop:'2rem'}}>
               <button className="btn primary" onClick={restart}>{t.retakeQuiz}</button>
-              <button className="btn primary" onClick={reshuffleAndRestart}>{t.newShuffle}</button>
+              <button className="btn outline" onClick={resetToConfig}>{t.newShuffle}</button>
               <button className="btn outline" onClick={resetToQuizSelection}>{t.chooseDifferent}</button>
             </div>
         </div>
@@ -397,7 +527,7 @@ function App() {
 
       {!loading && !error && started && !done && !revealed && (
         <div className="actions" style={{justifyContent:'flex-end'}}>
-          <button className="btn danger" onClick={restart}>{t.quit}</button>
+          <button className="btn danger" onClick={resetToConfig}>{t.quit}</button>
           <button className="btn outline" onClick={resetToQuizSelection}>{t.chooseQuizButton}</button>
         </div>
       )}
