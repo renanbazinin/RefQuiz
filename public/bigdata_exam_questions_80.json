@@ -1401,23 +1401,23 @@
   },
   {
     "id": 51,
-    "question": "מהי הדאטה שלא תתאים לטיפול ב Big Data?",
+    "question": "?מתי הדאטה שלנו הופך להיות Big Data",
     "options": [
       {
         "id": "a1",
-        "text": "קובץ הדאטה יהיה בגודל בנפח של Terabytes ולא תצריך שעות עיבוד של Big Data."
+        "text": "כאשר הדאטה צפוי לגדול בעתיד באופן לא חזוי וייאלץ שיטות עיבוד של Big Data."
       },
       {
         "id": "a2",
-        "text": "כל דאטה מעל Gigabytes נחשבת באופן אוטומטי ל Big Data."
+        "text": "כל דאטה הוא Big Data באופן פוטנציאלי."
       },
       {
         "id": "a3",
-        "text": "כאשר נדרש עיבוד של קבצים עם נפח כולל של Gigabytes לצורך של Terabytes או אפילו Petabytes."
+        "text": "כאשר הדאטה שלנו עבר מגדלים של Gigabytes לגדלים של Terabytes או אפילו Petabytes."
       },
       {
         "id": "a4",
-        "text": "כאשר בגלל קצב זרימת נתונים גבוהה נבחרנו להשתמש ב Apache Kafka."
+        "text": "כאשר בגלל קצב זרימת נתונים גבוהים עברנו להשתמש ב־Apache Kafka."
       }
     ],
     "correctOptionId": "a1",
