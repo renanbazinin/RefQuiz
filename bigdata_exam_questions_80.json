@@ -533,7 +533,7 @@
   },
   {
     "id": 20,
-    "question": "מה תבנית בקוד הזה של Apache Spark: sc.parallelize([1,2,3,4]).reduceByKey(func1)",
+    "question": "מה הבעיה בקוד הזה של Apache Spark: sc.parallelize([1,2,3,4]).reduceByKey(func1)",
     "options": [
       {
         "id": "a1",
