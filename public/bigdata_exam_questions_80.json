@@ -337,7 +337,7 @@
   },
   {
     "id": 13,
-    "question": "ב MapReduce Hadoop, מה הקשר בין מספר ה- mappers לבין מספר הקבצים שנכתבים ל output?",
+    "question": "ב- Hadoop MapReduce, מה הקשר בין מספר ה- reducers ומספר ה- mappers לבין מספר הקבצים שנכתבים ל- output?",
     "options": [
       {
         "id": "a1",
